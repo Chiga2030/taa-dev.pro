@@ -1,0 +1,76 @@
+html,
+body {
+	margin: auto;
+}
+
+.grid-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	grid-auto-rows: minmax(800px, auto);
+}
+
+.grid-wrapper-right-top {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-columns: 1fr 1fr;
+}
+
+
+
+.about {
+	background: #231E1B;
+}
+.about-header {}
+.name-logo {}
+.about-subtitle {}
+.contacts {}
+.avatar {}
+.phone {}
+.email {}
+.networks {}
+.networks__github {}
+.networks__telegram {}
+.networks__linkedin {}
+.networks__twitter {}
+.about-footer {}
+.about-me {}
+
+
+
+.last-projects {}
+.title-last-projects {}
+.projects {}
+.project {}
+.project__name {}
+.project__preview {}
+.project__preview_first-project {}
+.project__description_subtitle {}
+.project__description_lead {}
+.link-to-preview {}
+
+
+
+
+
+
+.my-skills {
+	background: #52DB74;
+}
+.title-my-skills {}
+.wrapper-my-skills {}
+.basic-level-js {}
+.skill-js {}
+.skill-js_basic {}
+.skill-git {}
+.skill-html {}
+.skill-css {}
+.skill-figma {}
+.basic-level-php {}
+.skill-php {}
+.skill-php_basic {}
+.basic-level-sql {}
+.skill-sql {}
+.skill-sql_basic {}
+.basic-level-wp {}
+.skill-wp {}
+.skill-wp_basic {}
