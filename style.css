@@ -134,25 +134,96 @@ body {
 	background: url(./img/social-networks/twitter.png) no-repeat;
 }
 
+/* block - last projects - 1440px */
+
+.last-projects__title-last-projects {
+	margin-bottom: 1em; 
+}
+
+.title-last-projects {
+	color: #231E1B;
+	font: normal 700 1.55em montserrat;
+	letter-spacing: .055em;
+	padding-top: .7em;
+	position: relative;
+	text-align: center;
+}
+
+.title-last-projects::before,
+.title-last-projects::after {
+	background: url(./img/line.png) no-repeat center;
+	content: '';
+	height: 34px;
+	position: absolute;
+	width: 36px;
+}
+
+.title-last-projects::before {
+	transform: translate(-46px, -1px);
+}
+
+.title-last-projects::after {
+	transform: translate(9px, -1px);
+}
+
+.projects {
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	max-width: 919px;
+}
+
+.project__name-of-project {
+	margin: 0;
+}
+
+.name-of-project {
+	font-size: .8em;
+	position: relative;
+	text-align: center;
+	z-index: 1;
+}
+
+.project__preview {
+	height: 210px;
+	transform: translate(-11px, -19px);
+	width: 307px;
+}
+
+.project__preview_first-project {
+	background: url(./img/projects-cases/axion/preview/preview.jpg) no-repeat;
+}
+
+.project__description_subtitle {
+	font: italic 700 .76em montserrat;
+	transform: translate(24px, -28px);
+}
+
+.project__description_lead {
+	font: normal 400 .76em montserrat;
+	transform: translate(24px, -40px);
+}
+
+.link-to-preview {
+	color: #231E1B;
+	display: inline-block;
+	font: normal 400 .76em montserrat;
+	position: relative;
+	transform: translate(24px, -48px);
+}
+
+.link-to-preview::after {
+	background: url(./img/arrows/arrow-short.png) no-repeat center;
+	content: '';
+	height: 17px;
+	position: absolute;
+	transform: translateX(3px);
+	width: 17px;
+}
 
 
-/*
-.last-projects {}
-.title-last-projects {}
-.projects {}
-.project {}
-.project__name {}
-.project__preview {}
-.project__preview_first-project {}
-.project__description_subtitle {}
-.project__description_lead {}
-.link-to-preview {}
 
 
-
-
-
-*/
 .my-skills {
 	background: #69c;
 }
