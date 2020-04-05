@@ -8,13 +8,15 @@ body {
 
 .grid-wrapper {
 	display: grid;
-	grid-template-columns: 400px 3fr;
-	grid-auto-rows: minmax(830px, auto);
+	grid-template-columns: 400px auto;
+	grid-template-rows: 830px auto;
+	margin: auto;
+	max-width: 1440px;
 }
 
 .grid-wrapper-right-top {
 	display: grid;
-	grid-template-columns: 1fr;
+	grid-template-columns: auto;
 }
 
 /* about block 1440px */
@@ -23,17 +25,19 @@ body {
 	background: #231E1B;
 }
 
-.about-header {}
+.about__name-logo {
+	margin-bottom: 0.5em;
+}
 
 .name-logo {
 	color: #fff;
 	font: normal 400 2.5em lobster;
-	padding: 1.18em 0 .35em;
+	padding-top: .36em;
 	text-align: center;
 }
 
 .about__about-subtitle {
-	margin-bottom: 1.3em;
+	margin: 0 auto 2.6em;
 }
 
 .about-subtitle {
@@ -43,11 +47,19 @@ body {
 	text-align: center;
 }
 
-.contacts {}
+.contacts__contacts-subtitle {
+	margin-bottom: 1.1em;
+}
+
+.contacts-subtitle {
+	color: #fff;
+	font: normal 700 1em montserrat;
+	letter-spacing: 0.08em;
+	text-align: center;
+}
 
 .contacts__avatar {
-	margin: auto;
-	/*width: auto;*/
+	margin: 0 auto 1em;
 }
 
 .avatar {
@@ -57,32 +69,74 @@ body {
 	width: 162px; /*164px*/
 }
 
-.contacts__phone {
-	margin: 1.8em 0 0em;
+.about-me {
+	color: #fff;
+	font-size: 0.9em;
+	letter-spacing: 0.06em;
+	text-align: center;
+}
+
+.about-me:last-child {
+	margin-bottom: 5.55em;
+}
+
+.about-footer__phone {
+	margin: 0 auto 0.05em;
 }
 
 .phone {
-	color: #fff
+	color: #fff;
 	display: block;
 	font: normal 700 1.5em montserrat;
 	text-align: center;
 	text-decoration: none;
 }
 
-.email {
-	display: block;
+.about-footer__email {
+	margin-bottom: 1em;
 }
 
-.networks {}
-.networks__github {}
-.networks__telegram {}
-.networks__linkedin {}
-.networks__twitter {}
-.about-footer {}
-.about-me {}
+.email {
+	color: #fff;
+	display: block;
+	font: normal 400 1em montserrat;
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: 0.08em;
+}
+
+.networks {
+	display: flex;
+	justify-content: space-between;
+	max-width: 206px;
+	margin: auto;
+}
+
+.networks__item {
+	display: inline-block;
+	height: 38px;
+	width: 38px;
+}
+
+.networks__item_github {
+	background: url(./img/social-networks/github.png) no-repeat;
+}
+
+.networks__item_telegram {
+	background: url(./img/social-networks/telegram.png) no-repeat;
+}
+
+.networks__item_linkedin {
+	background: url(./img/social-networks/linkedin.png) no-repeat;
+}
+
+.networks__item_twitter {
+	background: url(./img/social-networks/twitter.png) no-repeat;
+}
 
 
 
+/*
 .last-projects {}
 .title-last-projects {}
 .projects {}
@@ -98,10 +152,11 @@ body {
 
 
 
-
+*/
 .my-skills {
 	background: #69c;
 }
+/*
 .title-my-skills {}
 .wrapper-my-skills {}
 .basic-level-js {}
@@ -120,3 +175,4 @@ body {
 .basic-level-wp {}
 .skill-wp {}
 .skill-wp_basic {}
+*/
