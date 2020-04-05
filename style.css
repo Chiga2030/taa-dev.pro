@@ -26,7 +26,7 @@ body {
 }
 
 .about__name-logo {
-	margin-bottom: 0.5em;
+	margin-bottom: .5em;
 }
 
 .name-logo {
@@ -43,7 +43,7 @@ body {
 .about-subtitle {
 	color: #fff;
 	font: normal 400 2em montserrat;
-	letter-spacing: 0.08em;
+	letter-spacing: .08em;
 	text-align: center;
 }
 
@@ -54,7 +54,7 @@ body {
 .contacts-subtitle {
 	color: #fff;
 	font: normal 700 1em montserrat;
-	letter-spacing: 0.08em;
+	letter-spacing: .08em;
 	text-align: center;
 }
 
@@ -71,8 +71,8 @@ body {
 
 .about-me {
 	color: #fff;
-	font-size: 0.9em;
-	letter-spacing: 0.06em;
+	font-size: .9em;
+	letter-spacing: .06em;
 	text-align: center;
 }
 
@@ -81,7 +81,7 @@ body {
 }
 
 .about-footer__phone {
-	margin: 0 auto 0.05em;
+	margin: 0 auto .05em;
 }
 
 .phone {
@@ -102,7 +102,7 @@ body {
 	font: normal 400 1em montserrat;
 	text-align: center;
 	text-decoration: none;
-	letter-spacing: 0.08em;
+	letter-spacing: .08em;
 }
 
 .networks {
