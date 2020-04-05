@@ -1,32 +1,78 @@
 html,
 body {
+	font: normal 400 1em montserrat;
 	margin: auto;
 }
 
+/* сетка гридов: */
+
 .grid-wrapper {
 	display: grid;
-	grid-template-columns: 1fr 3fr;
-	grid-auto-rows: minmax(800px, auto);
+	grid-template-columns: 400px 3fr;
+	grid-auto-rows: minmax(830px, auto);
 }
 
 .grid-wrapper-right-top {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-columns: 1fr 1fr;
 }
 
-
+/* about block 1440px */
 
 .about {
 	background: #231E1B;
 }
+
 .about-header {}
-.name-logo {}
-.about-subtitle {}
+
+.name-logo {
+	color: #fff;
+	font: normal 400 2.5em lobster;
+	padding: 1.18em 0 .35em;
+	text-align: center;
+}
+
+.about__about-subtitle {
+	margin-bottom: 1.3em;
+}
+
+.about-subtitle {
+	color: #fff;
+	font: normal 400 2em montserrat;
+	letter-spacing: 0.08em;
+	text-align: center;
+}
+
 .contacts {}
-.avatar {}
-.phone {}
-.email {}
+
+.contacts__avatar {
+	margin: auto;
+	/*width: auto;*/
+}
+
+.avatar {
+	background: url(img/avatar.jpg) center;
+	border-radius: 50%;
+	height: 162px; /*164px*/
+	width: 162px; /*164px*/
+}
+
+.contacts__phone {
+	margin: 1.8em 0 0em;
+}
+
+.phone {
+	color: #fff
+	display: block;
+	font: normal 700 1.5em montserrat;
+	text-align: center;
+	text-decoration: none;
+}
+
+.email {
+	display: block;
+}
+
 .networks {}
 .networks__github {}
 .networks__telegram {}
@@ -54,7 +100,7 @@ body {
 
 
 .my-skills {
-	background: #52DB74;
+	background: #69c;
 }
 .title-my-skills {}
 .wrapper-my-skills {}
