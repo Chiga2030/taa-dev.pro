@@ -1,0 +1,122 @@
+html,
+body {
+	font: normal 400 1em montserrat;
+	margin: auto;
+}
+
+/* сетка гридов: */
+
+.grid-wrapper {
+	display: grid;
+	grid-template-columns: 400px 3fr;
+	grid-auto-rows: minmax(830px, auto);
+}
+
+.grid-wrapper-right-top {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+/* about block 1440px */
+
+.about {
+	background: #231E1B;
+}
+
+.about-header {}
+
+.name-logo {
+	color: #fff;
+	font: normal 400 2.5em lobster;
+	padding: 1.18em 0 .35em;
+	text-align: center;
+}
+
+.about__about-subtitle {
+	margin-bottom: 1.3em;
+}
+
+.about-subtitle {
+	color: #fff;
+	font: normal 400 2em montserrat;
+	letter-spacing: 0.08em;
+	text-align: center;
+}
+
+.contacts {}
+
+.contacts__avatar {
+	margin: auto;
+	/*width: auto;*/
+}
+
+.avatar {
+	background: url(img/avatar.jpg) center;
+	border-radius: 50%;
+	height: 162px; /*164px*/
+	width: 162px; /*164px*/
+}
+
+.contacts__phone {
+	margin: 1.8em 0 0em;
+}
+
+.phone {
+	color: #fff
+	display: block;
+	font: normal 700 1.5em montserrat;
+	text-align: center;
+	text-decoration: none;
+}
+
+.email {
+	display: block;
+}
+
+.networks {}
+.networks__github {}
+.networks__telegram {}
+.networks__linkedin {}
+.networks__twitter {}
+.about-footer {}
+.about-me {}
+
+
+
+.last-projects {}
+.title-last-projects {}
+.projects {}
+.project {}
+.project__name {}
+.project__preview {}
+.project__preview_first-project {}
+.project__description_subtitle {}
+.project__description_lead {}
+.link-to-preview {}
+
+
+
+
+
+
+.my-skills {
+	background: #69c;
+}
+.title-my-skills {}
+.wrapper-my-skills {}
+.basic-level-js {}
+.skill-js {}
+.skill-js_basic {}
+.skill-git {}
+.skill-html {}
+.skill-css {}
+.skill-figma {}
+.basic-level-php {}
+.skill-php {}
+.skill-php_basic {}
+.basic-level-sql {}
+.skill-sql {}
+.skill-sql_basic {}
+.basic-level-wp {}
+.skill-wp {}
+.skill-wp_basic {}
