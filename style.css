@@ -17,6 +17,7 @@ body {
 .grid-wrapper-right-top {
 	display: grid;
 	grid-template-columns: auto;
+	grid-template-rows: 383px auto;
 }
 
 /* about block 1440px */
@@ -187,7 +188,7 @@ body {
 .project__preview {
 	height: 210px;
 	transform: translate(-11px, -19px);
-	width: 307px;
+	max-width: 307px;
 }
 
 .project__preview_first-project {
@@ -227,9 +228,37 @@ body {
 .my-skills {
 	background: #69c;
 }
-/*
-.title-my-skills {}
-.wrapper-my-skills {}
+
+.title-my-skills {
+	color: #231E1B;
+	font: normal 700 1.55em montserrat;
+	letter-spacing: .055em;
+	/*padding-top: .0em;*/
+	position: relative;
+	text-align: center;
+}
+
+.title-my-skills::before,
+.title-my-skills::after {
+	background: url(./img/line.png) no-repeat center;
+	content: '';
+	height: 34px;
+	position: absolute;
+	width: 36px;
+}
+
+.title-my-skills::before {
+	transform: translate(-46px, -1px);
+}
+
+.title-my-skills::after {
+	transform: translate(9px, -1px);
+}
+
+.wrapper-my-skills {
+
+}
+
 .basic-level-js {}
 .skill-js {}
 .skill-js_basic {}
@@ -246,4 +275,4 @@ body {
 .basic-level-wp {}
 .skill-wp {}
 .skill-wp_basic {}
-*/
+
