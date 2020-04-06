@@ -17,7 +17,7 @@ body {
 .grid-wrapper-right-top {
 	display: grid;
 	grid-template-columns: auto;
-	grid-template-rows: 383px auto;
+	grid-template-rows: 420px auto;
 }
 
 /* about block 1440px */
@@ -138,15 +138,14 @@ body {
 /* block - last projects - 1440px */
 
 .last-projects__title-last-projects {
-	margin-bottom: 1em; 
+	margin-bottom: .4em; 
 }
 
 .title-last-projects {
 	color: #231E1B;
 	font: normal 700 1.55em montserrat;
 	letter-spacing: .055em;
-	padding-top: .7em;
-	position: relative;
+	padding-top: .4em;
 	text-align: center;
 }
 
@@ -167,59 +166,61 @@ body {
 	transform: translate(9px, -1px);
 }
 
+.last-projects__projects{
+	margin: auto;
+}
+
 .projects {
 	display: flex;
 	justify-content: space-between;
-	margin: auto;
-	max-width: 919px;
+	max-width: 956px;
+	padding: 0 1em;
 }
 
-.project__name-of-project {
-	margin: 0;
+.project {
+	max-width: 284px;
 }
 
 .name-of-project {
-	font-size: .8em;
-	position: relative;
+	font-size: 1em;
+	letter-spacing: .08em;
+	padding-top: .1em;
 	text-align: center;
-	z-index: 1;
 }
 
 .project__preview {
-	height: 210px;
-	transform: translate(-11px, -19px);
-	max-width: 307px;
+	height: 234px;
+	width: 284px;
+	margin: 0 auto .1em;
 }
 
 .project__preview_first-project {
-	background: url(./img/projects-cases/axion/preview/preview.jpg) no-repeat;
+	background: url(./img/projects-cases/axion/preview/preview.png) no-repeat center;
 }
 
 .project__description_subtitle {
 	font: italic 700 .76em montserrat;
-	transform: translate(24px, -28px);
+	margin: 0 auto .6em;
 }
 
 .project__description_lead {
-	font: normal 400 .76em montserrat;
-	transform: translate(24px, -40px);
+	font: normal 400 .75em montserrat;
+	margin: 0 auto .4em;
 }
 
 .link-to-preview {
 	color: #231E1B;
 	display: inline-block;
 	font: normal 400 .76em montserrat;
-	position: relative;
-	transform: translate(24px, -48px);
 }
 
 .link-to-preview::after {
-	background: url(./img/arrows/arrow-short.png) no-repeat center;
+	background: url(./img/arrows/arrow-short.png) no-repeat left;
 	content: '';
 	height: 17px;
 	position: absolute;
-	transform: translateX(3px);
-	width: 17px;
+	transform: translateX(12px);
+	width: 19px;
 }
 
 
@@ -233,7 +234,6 @@ body {
 	color: #231E1B;
 	font: normal 700 1.55em montserrat;
 	letter-spacing: .055em;
-	/*padding-top: .0em;*/
 	position: relative;
 	text-align: center;
 }
