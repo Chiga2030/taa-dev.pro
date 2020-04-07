@@ -8,8 +8,8 @@ body {
 
 .grid-wrapper {
 	display: grid;
-	grid-template-columns: 400px auto;
-	grid-template-rows: 830px auto;
+	grid-template-columns: minmax(350px, 400px) auto;
+	grid-template-rows: minmax(830px, auto) auto;
 	margin: auto;
 	max-width: 1440px;
 }
@@ -23,7 +23,7 @@ body {
 /* about block 1440px */
 
 .about {
-	background: #231E1B;
+	background: #2B111E;
 }
 
 .about__name-logo {
@@ -50,6 +50,7 @@ body {
 
 .contacts__contacts-subtitle {
 	margin-bottom: 1.1em;
+	padding: 0 1em;
 }
 
 .contacts-subtitle {
@@ -74,6 +75,7 @@ body {
 	color: #fff;
 	font-size: .9em;
 	letter-spacing: .06em;
+	padding: 0 .8em;
 	text-align: center;
 }
 
@@ -106,11 +108,15 @@ body {
 	letter-spacing: .08em;
 }
 
+.about-footer__networks {
+	margin: auto;
+}
+
 .networks {
 	display: flex;
 	justify-content: space-between;
 	max-width: 206px;
-	margin: auto;
+	padding-bottom: 44px;
 }
 
 .networks__item {
@@ -142,7 +148,7 @@ body {
 }
 
 .title-last-projects {
-	color: #231E1B;
+	color: #2B111E;
 	font: normal 700 1.55em montserrat;
 	letter-spacing: .055em;
 	padding-top: .4em;
@@ -209,7 +215,7 @@ body {
 }
 
 .link-to-preview {
-	color: #231E1B;
+	color: #2B111E;
 	display: inline-block;
 	font: normal 400 .76em montserrat;
 }
@@ -223,17 +229,19 @@ body {
 	width: 19px;
 }
 
-
-
-
 .my-skills {
-	background: #69c;
+	/*background: #69c;*/
+}
+
+.my-skills__title-my-skills {
+	margin: auto;
 }
 
 .title-my-skills {
-	color: #231E1B;
+	color: #2B111E;
 	font: normal 700 1.55em montserrat;
 	letter-spacing: .055em;
+	padding: .08em 0 0.95em;
 	position: relative;
 	text-align: center;
 }
@@ -256,23 +264,52 @@ body {
 }
 
 .wrapper-my-skills {
-
+	background: url(./img/background-skills.png) no-repeat center;
+	height: 164px;
+	max-width: 1040px;
+	position: relative;
 }
 
-.basic-level-js {}
-.skill-js {}
-.skill-js_basic {}
-.skill-git {}
-.skill-html {}
-.skill-css {}
-.skill-figma {}
+.basic-level-js {
+	position: absolute;
+	top: 246px;
+	left: 95px;
+	width: 141px;
+	line-height: .9;
+}
+
+
+
+
+.skill-js,
+.skill-git,
+.skill-html,
+.skill-css,
+.skill-figma,
+.skill-php,
+.skill-sql,
+.skill-wp {
+	font: normal 400 1.5em montserrat;
+	letter-spacing: .08em;
+}
+
+
+
+
+.skill-js_basic,
+.skill-php_basic,
+.skill-sql_basic,
+.skill-wp_basic {
+	font: normal 400 0.7em montserrat;
+	letter-spacing: .08em;
+}
+
+
+
 .basic-level-php {}
-.skill-php {}
-.skill-php_basic {}
+
 .basic-level-sql {}
-.skill-sql {}
-.skill-sql_basic {}
+
 .basic-level-wp {}
-.skill-wp {}
-.skill-wp_basic {}
+
 
