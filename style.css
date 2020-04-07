@@ -83,6 +83,11 @@ body {
 	margin-bottom: 5.55em;
 }
 
+.wrapper-phone-email {
+	margin: auto;
+	width: 206px;
+}
+
 .about-footer__phone {
 	margin: 0 auto .05em;
 }
@@ -264,20 +269,220 @@ body {
 }
 
 .wrapper-my-skills {
-	background: url(./img/background-skills.png) no-repeat center;
+	background: url(./img/background-skills.png) no-repeat left;
 	height: 164px;
 	max-width: 1040px;
 	position: relative;
 }
 
-.basic-level-js {
+.dotted-line-js,
+.dotted-line-git,
+.dotted-line-html,
+.dotted-line-css,
+.dotted-line-figma,
+.dotted-line-php,
+.dotted-line-sql,
+.dotted-line-wp {
+	border-left: 1px dashed #000; 
 	position: absolute;
-	top: 246px;
-	left: 95px;
-	width: 141px;
-	line-height: .9;
+	transform-origin: top;
 }
 
+.dotted-line-js {
+  animation: dashed-js 2s ease-in-out 1 forwards;
+	height: 19px;
+	left: 171px;
+	top: 166px;
+}
+
+@keyframes dashed-js {
+ from { transform: scaleY(.1);  }
+ to { transform: scaleY(3.8);  }
+}
+
+.dotted-line-git {
+  animation: dashed-git 2s ease-in-out 1 forwards;
+	height: 19px;
+	left: 280px;
+	top: 99px;
+}
+
+@keyframes dashed-git {
+ from { transform: scaleY(3.5);  }
+ to { transform: scaleY(3.8);  }
+}
+
+.dotted-line-html {
+  animation: dashed-html 2s ease-in-out 1 forwards;
+	height: 29px;
+	left: 335px;
+	top: 111px;
+}
+
+@keyframes dashed-html {
+ from { transform: scaleY(2.1);  }
+ to { transform: scaleY(3.8);  }
+}
+
+.dotted-line-css {
+  animation: dashed-css 2s ease-in-out 1 forwards;
+	height: 38px;
+	left: 412px;
+	top: 124px;
+}
+
+@keyframes dashed-css {
+ from { transform: scaleY(1.2);  }
+ to { transform: scaleY(3.8);  }
+}
+
+.dotted-line-figma {
+  animation: dashed-figma 2s ease-in-out 1 forwards;
+	height: 55px;
+	left: 471px;
+	top: 104px;
+}
+
+@keyframes dashed-figma {
+ from { transform: scaleY(1.2);  }
+ to { transform: scaleY(3.8);  }
+}
+
+.dotted-line-php {
+  animation: dashed-php 2s ease-in-out 1 forwards;
+	height: 9px;
+	left: 588px;
+	top: 139px;
+}
+
+@keyframes dashed-php {
+ from { transform: scaleY(3.2);  }
+ to { transform: scaleY(3.8);  }
+}
+
+.dotted-line-sql {
+  animation: dashed-sql 2s ease-in-out 1 forwards;
+	height: 27px;
+	left: 707px;
+	top: 136px;
+}
+
+@keyframes dashed-sql {
+ from { transform: scaleY(1.2);  }
+ to { transform: scaleY(3.8);  }
+}
+
+.dotted-line-wp {
+  animation: dashed-wp 2s ease-in-out 1 forwards;
+	height: 44px;
+	left: 811px;
+	top: 124px;
+}
+
+@keyframes dashed-wp {
+ from { transform: scaleY(1);  }
+ to { transform: scaleY(3.8);  }
+}
+
+.wrapper-skill-js {
+  animation: to-down-js 2s ease-in-out 1 forwards;
+	left: 95px;
+	line-height: .9;
+	position: absolute;
+	top: 170px;
+}
+
+@keyframes to-down-js {
+ from { transform: translateY(0); }
+ to { transform: translateY(76px); }
+}
+
+.wrapper-skill-git {
+  animation: to-down-git 2s ease-in-out 1 forwards;
+	left: 258px;
+	position: absolute;
+	top: 170px;
+}
+
+@keyframes to-down-git {
+ from { transform: translateY(0); }
+ to { transform: translateY(10px); }
+}
+
+.wrapper-skill-html {
+  animation: to-down-html 2s ease-in-out 1 forwards;
+	left: 297px;
+	position: absolute;
+	top: 170px;
+}
+
+@keyframes to-down-html {
+ from { transform: translateY(0); }
+ to { transform: translateY(54px); }
+}
+
+.wrapper-skill-css {
+  animation: to-down-css 2s ease-in-out 1 forwards;
+	left: 386px;
+	position: absolute;
+	top: 170px;
+}
+
+@keyframes to-down-css {
+ from { transform: translateY(0); }
+ to { transform: translateY(99px); }
+}
+
+.wrapper-skill-figma {
+  animation: to-down-figma 2s ease-in-out 1 forwards;
+	left: 428px;
+	position: absolute;
+	top: 170px;
+}
+
+@keyframes to-down-figma {
+ from { transform: translateY(0); }
+ to { transform: translateY(144px); }
+}
+
+.wrapper-skill-php {
+  animation: to-down-php 2s ease-in-out 1 forwards;
+	left: 560px;
+	line-height: .9;
+	position: absolute;
+	top: 170px;
+}
+
+@keyframes to-down-php {
+ from { transform: translateY(0); }
+ to { transform: translateY(9px); }
+}
+
+.wrapper-skill-sql {
+  animation: to-down-sql 2s ease-in-out 1 forwards;
+	left: 659px;
+	line-height: .9;
+	position: absolute;
+	top: 170px;
+}
+
+@keyframes to-down-sql {
+ from { transform: translateY(0); }
+ to { transform: translateY(69px); }
+}
+
+.wrapper-skill-wp {
+  animation: to-down-wp 2s ease-in-out 1 forwards;
+	left: 737px;
+	line-height: .9;
+	position: absolute;
+	top: 170px;
+}
+
+@keyframes to-down-wp {
+ from { transform: translateY(0); }
+ to { transform: translateY(130px); }
+}
 
 
 
@@ -289,6 +494,7 @@ body {
 .skill-php,
 .skill-sql,
 .skill-wp {
+	display: block;
 	font: normal 400 1.5em montserrat;
 	letter-spacing: .08em;
 }
@@ -306,10 +512,5 @@ body {
 
 
 
-.basic-level-php {}
-
-.basic-level-sql {}
-
-.basic-level-wp {}
 
 
