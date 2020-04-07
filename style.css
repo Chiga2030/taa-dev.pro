@@ -271,6 +271,23 @@ body {
 	position: relative;
 }
 
+.amination-asteroids {
+  animation: circul-asteroids 10s steps(1) reverse infinite;
+  background:  url(./img/amination-asteroids.png) left;
+  height: 164px;
+  left: 498px;
+  position: absolute;
+  width: 29px;
+}
+
+@keyframes circul-asteroids {
+ 20% { background-position: 30px 0; }
+ 40% { background-position: calc(30px * 2) 0; }
+ 60% { background-position: calc(30px * 3) 0; }
+ 80% { background-position: calc(30px * 4) 0; }
+ 100% { background-position: calc(30px * 5) 0; }
+}
+
 .dotted-line-js,
 .dotted-line-git,
 .dotted-line-html,
