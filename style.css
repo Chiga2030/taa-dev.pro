@@ -234,10 +234,6 @@ body {
 	width: 19px;
 }
 
-.my-skills {
-	/*background: #69c;*/
-}
-
 .my-skills__title-my-skills {
 	margin: auto;
 }
@@ -246,7 +242,7 @@ body {
 	color: #2B111E;
 	font: normal 700 1.55em montserrat;
 	letter-spacing: .055em;
-	padding: .08em 0 0.95em;
+	padding: .08em 0 .95em;
 	position: relative;
 	text-align: center;
 }
@@ -484,8 +480,6 @@ body {
  to { transform: translateY(130px); }
 }
 
-
-
 .skill-js,
 .skill-git,
 .skill-html,
@@ -499,18 +493,10 @@ body {
 	letter-spacing: .08em;
 }
 
-
-
-
 .skill-js_basic,
 .skill-php_basic,
 .skill-sql_basic,
 .skill-wp_basic {
-	font: normal 400 0.7em montserrat;
+	font: normal 400 .7em montserrat;
 	letter-spacing: .08em;
 }
-
-
-
-
-
