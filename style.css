@@ -272,7 +272,7 @@ body {
 }
 
 .amination-asteroids {
-  animation: circul-asteroids 10s steps(1) reverse infinite;
+  animation: circul-asteroids 2s steps(1) reverse infinite forwards;
   background:  url(./img/amination-asteroids.png) left;
   height: 164px;
   left: 498px;
@@ -281,12 +281,40 @@ body {
 }
 
 @keyframes circul-asteroids {
- 20% { background-position: 30px 0; }
- 40% { background-position: calc(30px * 2) 0; }
- 60% { background-position: calc(30px * 3) 0; }
- 80% { background-position: calc(30px * 4) 0; }
- 100% { background-position: calc(30px * 5) 0; }
+3% { background-position: calc(30px * 1) 0; }
+6% { background-position: calc(30px * 2) 0; }
+10% { background-position: calc(30px * 3) 0; }
+13% { background-position: calc(30px * 4) 0; }
+17% { background-position: calc(30px * 5) 0; }
+20% { background-position: calc(30px * 6) 0; }
+24% { background-position: calc(30px * 7) 0; }
+27% { background-position: calc(30px * 8) 0; }
+31% { background-position: calc(30px * 9) 0; }
+34% { background-position: calc(30px * 10) 0; }
+37% { background-position: calc(30px * 11) 0; }
+41% { background-position: calc(30px * 12) 0; }
+44% { background-position: calc(30px * 13) 0; }
+48% { background-position: calc(30px * 14) 0; }
+51% { background-position: calc(30px * 15) 0; }
+55% { background-position: calc(30px * 16) 0; }
+58% { background-position: calc(30px * 17) 0; }
+62% { background-position: calc(30px * 18) 0; }
+65% { background-position: calc(30px * 19) 0; }
+68% { background-position: calc(30px * 20) 0; }
+72% { background-position: calc(30px * 21) 0; }
+75% { background-position: calc(30px * 22) 0; }
+79% { background-position: calc(30px * 23) 0; }
+82% { background-position: calc(30px * 24) 0; }
+86% { background-position: calc(30px * 25) 0; }
+89% { background-position: calc(30px * 26) 0; }
+93% { background-position: calc(30px * 27) 0; }
+96% { background-position: calc(30px * 28) 0; }
+100% { background-position: calc(30px * 29) 0; }
 }
+
+
+
+
 
 .dotted-line-js,
 .dotted-line-git,
