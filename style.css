@@ -271,9 +271,9 @@ body {
 	position: relative;
 }
 
-.amination-asteroids {
+.animation-asteroids {
   animation: circul-asteroids 10s steps(1) reverse infinite forwards;
-  background:  url(./img/amination-asteroids.png) left;
+  background:  url(./img/animation-asteroids.png) left;
   height: 164px;
   left: 498px;
   position: absolute;
