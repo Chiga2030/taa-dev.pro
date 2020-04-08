@@ -2,87 +2,89 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, width=device-width">
 	<link rel="stylesheet" href="./fonts/fonts.css">
 	<link rel="stylesheet" href="./style.css">
 	<title>Web develop and sites creative</title>
 </head>
 <body>
-	<main>
+	<main class="grid-wrapper">
 
 		<section class="about">
 
 			<header class="about-header">
-				<h1 class="name-logo">@chiga2030</h1>
-				<p class="about-subtitle">
-					web-разработка
-					<wbr>
-					создание сайтов
-				</p>
+				<h1 class="about__name-logo name-logo">@chiga2030</h1>
+				<p class="about__about-subtitle about-subtitle">web-разработка<br>создание сайтов</p>
 			</header>
 
 			<section class="contacts">
-				<div class="avatar">
+				<h2 class="contacts__contacts-subtitle contacts-subtitle">Меня зовут Антон, я начинающий frontend-разработчик.</h2>
+				<div class="contacts__avatar avatar">
 					<!-- <img src="./img/avatar.jpg" alt="avatar @chiga2030"> -->
 				</div>
-				<a class="phone" href="tel:+7(926)265-4213">+7(926)265-4213</a>
-				<a class="email" href="mailto:tkachuk.ant@mail.ru">tkachuk.ant@mail.ru</a>
-				<div class="networks">
-					<span class="networks__github">
-						<!-- <img src="./img/social-networks/github.png" alt="social link to github.com"> -->
-					</span>
-					<span class="networks__telegram">
-						<!-- <img src="./img/social-networks/telegram.png" alt="social link to telegram.org"> -->
-					</span>
-					<span class="networks__linkedin">
-						<!-- <img src="./img/social-networks/linkedin.png" alt="social link to linkedin.com"> -->
-					</span>
-					<span class="networks__twitter">
-						<!-- <img src="./img/social-networks/twitter.png" alt="social link to twitter.com"> -->
-					</span>
-				</div>
+				<p class="about-me">В данный момент являюсь студентом школы веб-технологий WebHeroSchool.</p>
+				<p class="about-me">Основная текущая специализация - верстка веб-страниц на основе макетов.</p>
 			</section>
 
 			<footer class="about-footer">
-				<p class="about-me">Меня зовут Антон, я начинающий frontend-разработчик. В данный момент являюсь студентом школы веб-технологий WebHeroSchool.</p>
-				<p class="about-me">Основная текущая специализация - верстка веб-страниц на основе макетов.</p>
+				<div class="wrapper-phone-email">
+					<a class="about-footer__phone phone" href="tel:+7(926)265-4213">+7(926)265-4213</a>
+					<a class="about-footer__email email" href="mailto:tkachuk.ant@mail.ru">tkachuk.ant@mail.ru</a>
+				</div>
+				<div class="about-footer__networks networks">
+					<a href="https://github.com/chiga2030" target="blank"><span class="networks__item networks__item_github">
+						<!-- <img src="./img/social-networks/github.png" alt="social link to github.com"> -->
+					</span></a>
+					<a href="https://t.me/chiga2030" target="blank"><span class="networks__item networks__item_telegram">
+						<!-- <img src="./img/social-networks/telegram.png" alt="social link to telegram.org"> -->
+					</span></a>
+					<a href="https://www.linkedin.com/in/tkachuk-anton" target="blank"><span class="networks__item networks__item_linkedin">
+						<!-- <img src="./img/social-networks/linkedin.png" alt="social link to linkedin.com"> -->
+					</span></a>
+					<a href="https://twitter.com/chiga2030" target="blank"><span class="networks__item networks__item_twitter">
+						<!-- <img src="./img/social-networks/twitter.png" alt="social link to twitter.com"> -->
+					</span></a>
+				</div>
 			</footer>
 
 		</section>
+		
+		<div class="grid-wrapper-right-top">
 
 		<section class="last-projects">
 			
-			<h2 class="title-last-projects">Последние проекты</h2>
+			<h2 class="last-projects__title-last-projects title-last-projects">Последние проекты</h2>
 
-			<div class="projects">
+			<div class="last-projects__projects projects">
 
 				<div class="project">
-					<h3 class="project__name">Axion</h3>
 					<div class="project__preview project__preview_first-project">
+					<h3 class="name-of-project">Axion</h3>
 						<!-- <img src="./img/projects-cases/axion/preview/preview.jpg" alt="preview for completed project Axion"> -->
 					</div>
 					<p class="project__description_subtitle">Итоговая работа по курсу html + css.</p>
 					<p class="project__description_lead">Верстка страницы адартирована под различные разрешения экранов.</p>
-					<a href="#"><span class="link-to-preview">Preview demo</span></a>
+					<a href="#" class="link-to-preview">Preview demo</a>
 				</div>
 
 				<div class="project">
-					<h3 class="project__name">Axion</h3>
 					<div class="project__preview project__preview_first-project">
+					<h3 class="name-of-project">Axion</h3>
 						<!-- <img src="./img/projects-cases/axion/preview/preview.jpg" alt="preview for completed project Axion"> -->
 					</div>
 					<p class="project__description_subtitle">Итоговая работа по курсу html + css.</p>
 					<p class="project__description_lead">Верстка страницы адартирована под различные разрешения экранов.</p>
-					<a href="#"><span class="link-to-preview">Preview demo</span></a>
+					<a href="#" class="link-to-preview">Preview demo</a>
 				</div>
 
 				<div class="project">
-					<h3 class="project__name">Axion</h3>
 					<div class="project__preview project__preview_first-project">
+					<h3 class="name-of-project">Axion</h3>
 						<!-- <img src="./img/projects-cases/axion/preview/preview.jpg" alt="preview for completed project Axion"> -->
 					</div>
 					<p class="project__description_subtitle">Итоговая работа по курсу html + css.</p>
 					<p class="project__description_lead">Верстка страницы адартирована под различные разрешения экранов.</p>
-					<a href="#"><span class="link-to-preview">Preview demo</span></a>
+					<a href="#" class="link-to-preview">Preview demo</a>
 				</div>
 
 			</div>
@@ -91,39 +93,57 @@
 
 		<section class="my-skills">
 
-			<h2 class="title-my-skills">Вот, что я умею</h2>
-
+			<h2 class="my-skills__title-my-skills title-my-skills">Вот, что я умею</h2>
 			<div class="wrapper-my-skills">
 				<!-- <img src="./img/background-skills.png" alt="background image for block skills"> -->
-				<div class="basic-level-js">
+				<div class="animation-asteroids"></div>
+				<div class="dotted-line-js"></div>
+				<div class="wrapper-skill-js">
 					<span class="skill-js">JavaScript</span>
 					<span class="skill-js_basic">(базовый уровень)</span>
 				</div>
-				<span class="skill-git">GIT</span>
-				<span class="skill-html">HTML</span>
-				<span class="skill-css">CSS</span>
-				<span class="skill-figma">Figma</span>
-				<div class="basic-level-php">
+				<div class="dotted-line-git"></div>
+				<div class="wrapper-skill-git">
+					<span class="skill-git">GIT</span>
+				</div>
+				<div class="dotted-line-html"></div>
+				<div class="wrapper-skill-html">
+					<span class="skill-html">HTML</span>
+				</div>
+				<div class="dotted-line-css"></div>
+				<div class="wrapper-skill-css">
+					<span class="skill-css">CSS</span>
+				</div>
+				<div class="dotted-line-figma"></div>
+				<div class="wrapper-skill-figma">
+					<span class="skill-figma">Figma</span>
+				</div>
+				<div class="dotted-line-php"></div>
+				<div class="wrapper-skill-php">
 					<span class="skill-php">PHP</span>
 					<span class="skill-php_basic">(базовый уровень)</span>
 				</div>
-				<div class="basic-level-sql">
+				<div class="dotted-line-sql"></div>
+				<div class="wrapper-skill-sql">
 					<span class="skill-sql">mySQL</span>
 					<span class="skill-sql_basic">(базовый уровень)</span>
 				</div>
-				<div class="basic-level-wp">
+				<div class="dotted-line-wp"></div>
+				<div class="wrapper-skill-wp">
 					<span class="skill-wp">WordPress</span>
 					<span class="skill-wp_basic">(базовый уровень)</span>
 				</div>
 			</div>
 			
 		</section>
+
+		</div>
 	
 		<section class="advantages">
 			
-			<h2 class="title-advantages">Как будет выглядеть верстка</h2>
+			<h2 class="advantages__title-advantages title-advantages">Как будет выглядеть верстка</h2>
 
-			<div class="advantage">
+			<div class="advantages__advantage advantage">
 				<h3 class="advantage__subtitle">Mobile</h3>
 				<p class="advantage__description">Ваш сайт будет адаптирован для мобильных устройств, что позволит удержать людей зашедших с телефонов и планшетов, а так же даст преимущество в построении рейтинга поисковых система, таких как Goggle и Yandex.</p>
 				<span class="advantage__image advantage__image_mobile">
@@ -131,7 +151,7 @@
 				</span>
 			</div>
 
-			<div class="advantage">
+			<div class="advantages__advantage advantage">
 				<h3 class="advantage__subtitle">Семантика</h3>
 				<p class="advantage__description">Код Вашего сайта будет основан на "семантической верстке", что опять же даст преимущество в поисковой выдаче.</p>
 				<span class="advantage__image advantage__image_semantics">
@@ -139,7 +159,7 @@
 				</span>
 			</div>
 
-			<div class="advantage">
+			<div class="advantages__advantage advantage">
 				<h3 class="advantage__subtitle">Валидность кода</h3>
 				<p class="advantage__description">Код Вашего сайта будет полностью валиден, при проверке на соответствие стандартов HTML и CSS.</p>
 				<span class="advantage__image advantage__image_validity">
@@ -147,7 +167,7 @@
 				</span>
 			</div>
 
-			<div class="advantage">
+			<div class="advantages__advantage advantage">
 				<h3 class="advantage__subtitle">Pixel perfect</h3>
 				<p class="advantage__description">Сайт будет выглядеть в точности как Ваш макет, что бы вы могли быстро визуально оценить качество работы.</p>
 				<span class="advantage__image advantage__image_pixel-perfect">
@@ -155,15 +175,15 @@
 				</span>
 			</div>
 
-			<div class="advantage">
-				<h3 class="advantage__subtitle">Оптимизация <wbr> изображений</h3>
+			<div class="advantages__advantage advantage">
+				<h3 class="advantage__subtitle">Оптимизация <br> изображений</h3>
 				<p class="advantage__description">Графические элементы будут подготовлены и оптимизированы, что бы Ваш сайт загружался практически мгновенно, что позволит удержать Ваших потенциальных клиентов с "медленным интернетом".</p>
 				<span class="advantage__image advantage__image_optimization">
 					<!-- <img src="./img/advantages/optimization.png" alt="svg icon"> -->
 				</span>
 			</div>
 
-			<div class="advantage">
+			<div class="advantages__advantage advantage">
 				<h3 class="advantage__subtitle">БЭМ - naming</h3>
 				<p class="advantage__description">При написании кода сайта я использую методологию именования "БЭМ", для Вас это означает, что при дальнейшем развитии вашего сайта, Вы сможете привлечь любого специалиста и он без труда будет ориентироваться в коде, что позволит существенно ускорить внедрение новых или изменения существующих элементов, Вашего сайта в будущем.</p>
 				<span class="advantage__image advantage__image_bem">
@@ -174,6 +194,6 @@
 		</section>
 
 	</main>
-	
+
 </body>
 </html>
