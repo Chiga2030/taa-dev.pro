@@ -272,49 +272,65 @@ body {
 }
 
 .amination-asteroids {
-  animation: circul-asteroids 2s steps(1) reverse infinite forwards;
+  animation: circul-asteroids 10s steps(1) reverse infinite forwards;
   background:  url(./img/amination-asteroids.png) left;
   height: 164px;
   left: 498px;
   position: absolute;
-  width: 29px;
+  width: 36px;
 }
 
 @keyframes circul-asteroids {
-3% { background-position: calc(30px * 1) 0; }
-6% { background-position: calc(30px * 2) 0; }
-10% { background-position: calc(30px * 3) 0; }
-13% { background-position: calc(30px * 4) 0; }
-17% { background-position: calc(30px * 5) 0; }
-20% { background-position: calc(30px * 6) 0; }
-24% { background-position: calc(30px * 7) 0; }
-27% { background-position: calc(30px * 8) 0; }
-31% { background-position: calc(30px * 9) 0; }
-34% { background-position: calc(30px * 10) 0; }
-37% { background-position: calc(30px * 11) 0; }
-41% { background-position: calc(30px * 12) 0; }
-44% { background-position: calc(30px * 13) 0; }
-48% { background-position: calc(30px * 14) 0; }
-51% { background-position: calc(30px * 15) 0; }
-55% { background-position: calc(30px * 16) 0; }
-58% { background-position: calc(30px * 17) 0; }
-62% { background-position: calc(30px * 18) 0; }
-65% { background-position: calc(30px * 19) 0; }
-68% { background-position: calc(30px * 20) 0; }
-72% { background-position: calc(30px * 21) 0; }
-75% { background-position: calc(30px * 22) 0; }
-79% { background-position: calc(30px * 23) 0; }
-82% { background-position: calc(30px * 24) 0; }
-86% { background-position: calc(30px * 25) 0; }
-89% { background-position: calc(30px * 26) 0; }
-93% { background-position: calc(30px * 27) 0; }
-96% { background-position: calc(30px * 28) 0; }
-100% { background-position: calc(30px * 29) 0; }
+	2.040816327% { background-position: calc(36px * 1) 0; }
+	4.081632653% { background-position: calc(36px * 2) 0; }
+	6.12244898% { background-position: calc(36px * 3) 0; }
+	8.163265306% { background-position: calc(36px * 4) 0; }
+	10.20408163% { background-position: calc(36px * 5) 0; }
+	12.24489796% { background-position: calc(36px * 6) 0; }
+	14.28571429% { background-position: calc(36px * 7) 0; }
+	16.32653061% { background-position: calc(36px * 8) 0; }
+	18.36734694% { background-position: calc(36px * 9) 0; }
+	20.40816327% { background-position: calc(36px * 10) 0; }
+	22.44897959% { background-position: calc(36px * 11) 0; }
+	24.48979592% { background-position: calc(36px * 12) 0; }
+	26.53061224% { background-position: calc(36px * 13) 0; }
+	28.57142857% { background-position: calc(36px * 14) 0; }
+	30.6122449% { background-position: calc(36px * 15) 0; }
+	32.65306122% { background-position: calc(36px * 16) 0; }
+	34.69387755% { background-position: calc(36px * 17) 0; }
+	36.73469388% { background-position: calc(36px * 18) 0; }
+	38.7755102% { background-position: calc(36px * 19) 0; }
+	40.81632653% { background-position: calc(36px * 20) 0; }
+	42.85714286% { background-position: calc(36px * 21) 0; }
+	44.89795918% { background-position: calc(36px * 22) 0; }
+	46.93877551% { background-position: calc(36px * 23) 0; }
+	48.97959184% { background-position: calc(36px * 24) 0; }
+	51.02040816% { background-position: calc(36px * 25) 0; }
+	53.06122449% { background-position: calc(36px * 26) 0; }
+	55.10204082% { background-position: calc(36px * 27) 0; }
+	57.14285714% { background-position: calc(36px * 28) 0; }
+	59.18367347% { background-position: calc(36px * 29) 0; }
+	61.2244898% { background-position: calc(36px * 30) 0; }
+	63.26530612% { background-position: calc(36px * 31) 0; }
+	65.30612245% { background-position: calc(36px * 32) 0; }
+	67.34693878% { background-position: calc(36px * 33) 0; }
+	69.3877551% { background-position: calc(36px * 34) 0; }
+	71.42857143% { background-position: calc(36px * 35) 0; }
+	73.46938776% { background-position: calc(36px * 36) 0; }
+	75.51020408% { background-position: calc(36px * 37) 0; }
+	77.55102041% { background-position: calc(36px * 38) 0; }
+	79.59183673% { background-position: calc(36px * 39) 0; }
+	81.63265306% { background-position: calc(36px * 40) 0; }
+	83.67346939% { background-position: calc(36px * 41) 0; }
+	85.71428571% { background-position: calc(36px * 42) 0; }
+	87.75510204% { background-position: calc(36px * 43) 0; }
+	89.79591837% { background-position: calc(36px * 44) 0; }
+	91.83673469% { background-position: calc(36px * 45) 0; }
+	93.87755102% { background-position: calc(36px * 46) 0; }
+	95.91836735% { background-position: calc(36px * 47) 0; }
+	97.95918367% { background-position: calc(36px * 48) 0; }
+	100% { background-position: calc(36px * 49) 0; }
 }
-
-
-
-
 
 .dotted-line-js,
 .dotted-line-git,
