@@ -2,20 +2,103 @@
 
 	/* сетка гридов: */
 
-/*	.grid-wrapper {
-		display: grid;
-		grid-template-columns: minmax(200px, 250px) auto;
+	.grid-wrapper {
+		grid-template-columns: minmax(250px, 250px) auto;
 		grid-template-rows: minmax(790px, auto) auto;
-		margin: auto;
 		max-width: 1024px;
 	}
 
 	.grid-wrapper-right-top {
-		display: grid;
 		grid-template-columns: auto;
-		grid-template-rows: 420px auto;
+		grid-template-rows: 470px auto;
 	}
-	*/
+
+
+	/* block - about  1024px */
+
+	.about {
+		background: #2B111E;
+	}
+
+	.about__name-logo {
+		margin-bottom: 0.26em;
+	}
+
+	.name-logo {
+		font-size: 2em;
+		padding-top: 0.95em;
+	}
+
+	.about__about-subtitle {
+		margin-bottom: 8.8em;
+	}
+
+	.about-subtitle {
+		font: normal 400 0.7em montserrat;
+		letter-spacing: 0.12em;
+		text-align: center;
+	}
+
+	.contacts__contacts-subtitle {
+		margin-bottom: 0.3em;
+	}
+
+	.contacts__contacts-subtitle-description {
+		margin-bottom: 4em;
+	}
+
+	.contacts-subtitle-description {
+		font-size: 0.7em;
+		letter-spacing: 0.12em;
+	}
+
+	.contacts__avatar {
+		margin-bottom: 1.3em;
+	}
+
+	.avatar {
+		background-size: cover;
+		height: 118px;
+		width: 115px;
+	}
+
+	.about-me {
+		font-size: 0.7em;
+		letter-spacing: .08em;
+		padding: 0 3.7em;
+	}
+
+	.contacts__about-me {
+		margin-bottom: 1.4em;
+	}
+
+	.contacts__about-me:last-child {
+		margin-bottom: 7em;
+	}
+
+	.phone {
+		font-size: 1.1em;
+		letter-spacing: 0.02em;
+	}
+
+	.about-footer__email {
+		margin-bottom: 1.3em;
+	}
+
+	.email {
+		font-size: 0.7em;
+		letter-spacing: 0.12em;
+	}
+
+	.networks {
+		max-width: 168px;
+	}
+
+	.networks__item {
+		height: 30px;
+		width: 30px;
+		background-size: cover;
+	}
 
 
 
@@ -25,11 +108,8 @@
 
 
 
-/*
-
-
-.advantage__description {
-width: 100px;
+	.advantage__description {
+	width: 100px;
+	}
 }
-}
-*/
+
