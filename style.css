@@ -38,7 +38,7 @@ body {
 }
 
 .about__about-subtitle {
-	margin: 0 auto 2.6em;
+	margin: 0 auto 2.5em;
 }
 
 .about-subtitle {
@@ -49,14 +49,23 @@ body {
 }
 
 .contacts__contacts-subtitle {
-	margin-bottom: 1.1em;
-	padding: 0 1em;
+	margin-bottom: 0.2em;
 }
 
 .contacts-subtitle {
 	color: #fff;
 	font: normal 700 1em montserrat;
 	letter-spacing: .08em;
+	text-align: center;
+}
+
+.contacts__contacts-subtitle-description {
+	margin: 0 auto 1.05em;
+}
+
+.contacts-subtitle-description {
+	color: #fff;
+	letter-spacing: .09em;
 	text-align: center;
 }
 
