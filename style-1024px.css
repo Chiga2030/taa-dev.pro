@@ -144,11 +144,343 @@
 		font-size: .8em;
 	}
 
+	/* block - my-skills - 1024px */
+
+	.my-skills__title-my-skills {
+		/*margin: auto;*/
+	}
+
+	.title-my-skills {
+		/*color: #2B111E;*/
+		/*font: normal 700 1.55em montserrat;*/
+		/*letter-spacing: .055em;*/
+		padding-bottom: 0.9em;
+		/*position: relative;*/
+		/*text-align: center;*/
+	}
+/*
+	.title-my-skills::before,
+	.title-my-skills::after {
+		background: url(./img/line.png) no-repeat center;
+		content: '';
+		height: 34px;
+		position: absolute;
+		width: 36px;
+	}
+
+	.title-my-skills::before {
+		transform: translate(-46px, -1px);
+	}
+
+	.title-my-skills::after {
+		transform: translate(9px, -1px);
+	}*/
+
+	.wrapper-my-skills {
+		/*background: url(./img/background-skills.png) no-repeat left;*/
+		background-size: contain;
+		height: 122px;
+		max-width: 774px;
+		/*position: relative;*/
+	}
+
+	.animation-asteroids {
+	  /*animation: circul-asteroids 10s steps(1) reverse infinite forwards;*/
+	  background:  url(./img/animation-asteroids-1024px.png) left;
+	  /*background-size: contain;*/
+	  height: 122px;
+	  left: 362px;
+	  /*position: absolute;*/
+	  /*width: 36px;*/
+	}
+/*
+	@keyframes circul-asteroids {
+		2.040816327% { background-position: calc(36px * 1) 0; }
+		4.081632653% { background-position: calc(36px * 2) 0; }
+		6.12244898% { background-position: calc(36px * 3) 0; }
+		8.163265306% { background-position: calc(36px * 4) 0; }
+		10.20408163% { background-position: calc(36px * 5) 0; }
+		12.24489796% { background-position: calc(36px * 6) 0; }
+		14.28571429% { background-position: calc(36px * 7) 0; }
+		16.32653061% { background-position: calc(36px * 8) 0; }
+		18.36734694% { background-position: calc(36px * 9) 0; }
+		20.40816327% { background-position: calc(36px * 10) 0; }
+		22.44897959% { background-position: calc(36px * 11) 0; }
+		24.48979592% { background-position: calc(36px * 12) 0; }
+		26.53061224% { background-position: calc(36px * 13) 0; }
+		28.57142857% { background-position: calc(36px * 14) 0; }
+		30.6122449% { background-position: calc(36px * 15) 0; }
+		32.65306122% { background-position: calc(36px * 16) 0; }
+		34.69387755% { background-position: calc(36px * 17) 0; }
+		36.73469388% { background-position: calc(36px * 18) 0; }
+		38.7755102% { background-position: calc(36px * 19) 0; }
+		40.81632653% { background-position: calc(36px * 20) 0; }
+		42.85714286% { background-position: calc(36px * 21) 0; }
+		44.89795918% { background-position: calc(36px * 22) 0; }
+		46.93877551% { background-position: calc(36px * 23) 0; }
+		48.97959184% { background-position: calc(36px * 24) 0; }
+		51.02040816% { background-position: calc(36px * 25) 0; }
+		53.06122449% { background-position: calc(36px * 26) 0; }
+		55.10204082% { background-position: calc(36px * 27) 0; }
+		57.14285714% { background-position: calc(36px * 28) 0; }
+		59.18367347% { background-position: calc(36px * 29) 0; }
+		61.2244898% { background-position: calc(36px * 30) 0; }
+		63.26530612% { background-position: calc(36px * 31) 0; }
+		65.30612245% { background-position: calc(36px * 32) 0; }
+		67.34693878% { background-position: calc(36px * 33) 0; }
+		69.3877551% { background-position: calc(36px * 34) 0; }
+		71.42857143% { background-position: calc(36px * 35) 0; }
+		73.46938776% { background-position: calc(36px * 36) 0; }
+		75.51020408% { background-position: calc(36px * 37) 0; }
+		77.55102041% { background-position: calc(36px * 38) 0; }
+		79.59183673% { background-position: calc(36px * 39) 0; }
+		81.63265306% { background-position: calc(36px * 40) 0; }
+		83.67346939% { background-position: calc(36px * 41) 0; }
+		85.71428571% { background-position: calc(36px * 42) 0; }
+		87.75510204% { background-position: calc(36px * 43) 0; }
+		89.79591837% { background-position: calc(36px * 44) 0; }
+		91.83673469% { background-position: calc(36px * 45) 0; }
+		93.87755102% { background-position: calc(36px * 46) 0; }
+		95.91836735% { background-position: calc(36px * 47) 0; }
+		97.95918367% { background-position: calc(36px * 48) 0; }
+		100% { background-position: calc(36px * 49) 0; }
+	}*/
+
+	.dotted-line-js,
+	.dotted-line-git,
+	.dotted-line-html,
+	.dotted-line-css,
+	.dotted-line-figma,
+	.dotted-line-php,
+	.dotted-line-sql,
+	.dotted-line-wp {
+		border-left: 2px dashed #000; 
+		/*position: absolute;*/
+		/*transform-origin: top;*/
+	}
+
+	.dotted-line-js {
+	  /*animation: dashed-js 2s ease-in-out 1 forwards;*/
+		height: 28px;
+		left: 126px;
+		top: 126px;
+	}
+
+	@keyframes dashed-js {
+	 /*from { transform: scaleY(.1);  }*/
+	 to { transform: scaleY(2);  }
+	}
+
+	.dotted-line-git {
+	  /*animation: dashed-git 2s ease-in-out 1 forwards;*/
+		height: 28px;
+		left: 208px;
+		top: 76px;
+	}
+
+	@keyframes dashed-git {
+	 from { transform: scaleY(1);  }
+	 to { transform: scaleY(2);  }
+	}
+
+	.dotted-line-html {
+	  /*animation: dashed-html 2s ease-in-out 1 forwards;*/
+		height: 41px;
+		left: 249px;
+		top: 85px;
+	}
+
+	@keyframes dashed-html {
+	 from { transform: scaleY(1);  }
+	 to { transform: scaleY(2);  }
+	}
+
+	.dotted-line-css {
+	  /*animation: dashed-css 2s ease-in-out 1 forwards;*/
+		height: 52px;
+		left: 307px;
+		top: 95px;
+	}
+
+	@keyframes dashed-css {
+	 /*from { transform: scaleY(1.2);  }*/
+	 to { transform: scaleY(2);  }
+	}
+
+	.dotted-line-figma {
+	  /*animation: dashed-figma 2s ease-in-out 1 forwards;*/
+		height: 77px;
+		left: 350px;
+		top: 80px;
+	}
+
+	@keyframes dashed-figma {
+	 /*from { transform: scaleY(1.2);  }*/
+	 to { transform: scaleY(2);  }
+	}
+
+	.dotted-line-php {
+	  /*animation: dashed-php 2s ease-in-out 1 forwards;*/
+		height: 13px;
+		left: 438px;
+		top: 105px;
+	}
+
+	@keyframes dashed-php {
+	 from { transform: scaleY(1);  }
+	 to { transform: scaleY(2);  }
+	}
+
+	.dotted-line-sql {
+	  /*animation: dashed-sql 2s ease-in-out 1 forwards;*/
+		height: 36px;
+		left: 526px;
+		top: 104px;
+	}
+
+	@keyframes dashed-sql {
+	 /*from { transform: scaleY(1.2);  }*/
+	 to { transform: scaleY(2);  }
+	}
+
+	.dotted-line-wp {
+	  /*animation: dashed-wp 2s ease-in-out 1 forwards;*/
+		height: 60px;
+		left: 603px;
+		top: 95px;
+	}
+
+	@keyframes dashed-wp {
+	 /*from { transform: scaleY(1);  }*/
+	 to { transform: scaleY(2);  }
+	}
+
+	.wrapper-skill-js {
+	  /*animation: to-down-js 2s ease-in-out 1 forwards;*/
+		left: 79px;
+		/*line-height: .9;*/
+		/*position: relative;*/
+		/*letter-spacing: 1.4em;*/
+		top: 155px;
+		/*width: */
+	}
+
+	@keyframes to-down-js {
+	 /*from { transform: translateY(0); }*/
+	 to { transform: translateY(28px); }
+	}
+
+	.wrapper-skill-git {
+	  /*animation: to-down-git 2s ease-in-out 1 forwards;*/
+		left: 192px;
+		/*position: absolute;*/
+		top: 124px;
+	}
+/*
+	@keyframes to-down-git {
+	 from { transform: translateY(0); }
+	 to { transform: translateY(10px); }
+	}*/
+
+	.wrapper-skill-html {
+	  /*animation: to-down-html 2s ease-in-out 1 forwards;*/
+		left: 220px;
+		/*position: absolute;*/
+		top: 124px;
+	}
+
+	@keyframes to-down-html {
+	 /*from { transform: translateY(0); }*/
+	 to { transform: translateY(43px); }
+	}
+
+	.wrapper-skill-css {
+	  animation: to-down-css 2s ease-in-out 1 forwards;
+		left: 386px;
+		position: absolute;
+		top: 170px;
+	}
+
+	@keyframes to-down-css {
+	 from { transform: translateY(0); }
+	 to { transform: translateY(99px); }
+	}
+
+	.wrapper-skill-figma {
+	  animation: to-down-figma 2s ease-in-out 1 forwards;
+		left: 428px;
+		position: absolute;
+		top: 170px;
+	}
+
+	@keyframes to-down-figma {
+	 from { transform: translateY(0); }
+	 to { transform: translateY(144px); }
+	}
+
+	.wrapper-skill-php {
+	  animation: to-down-php 2s ease-in-out 1 forwards;
+		left: 560px;
+		line-height: .9;
+		position: absolute;
+		top: 170px;
+	}
+
+	@keyframes to-down-php {
+	 from { transform: translateY(0); }
+	 to { transform: translateY(9px); }
+	}
+
+	.wrapper-skill-sql {
+	  animation: to-down-sql 2s ease-in-out 1 forwards;
+		left: 659px;
+		line-height: .9;
+		position: absolute;
+		top: 170px;
+	}
+
+	@keyframes to-down-sql {
+	 from { transform: translateY(0); }
+	 to { transform: translateY(69px); }
+	}
+
+	.wrapper-skill-wp {
+	  animation: to-down-wp 2s ease-in-out 1 forwards;
+		left: 737px;
+		line-height: .9;
+		position: absolute;
+		top: 170px;
+	}
+
+	@keyframes to-down-wp {
+	 from { transform: translateY(0); }
+	 to { transform: translateY(130px); }
+	}
+
+	.skill-js,
+	.skill-git,
+	.skill-html,
+	.skill-css,
+	.skill-figma,
+	.skill-php,
+	.skill-sql,
+	.skill-wp {
+		display: block;
+		/*font: normal 400 1.5em montserrat;*/
+	  font-size: 1.1em;
+		letter-spacing: .03em;
+	}
+
+	.skill-js_basic,
+	.skill-php_basic,
+	.skill-sql_basic,
+	.skill-wp_basic {
+		font: normal 400 .7em montserrat;
+		letter-spacing: .08em;
+	}
 
 
-
-.advantages,
-.my-skills {
+.advantages {
 	display: none;
 }
 
