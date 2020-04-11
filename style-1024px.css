@@ -1,0 +1,411 @@
+@media (max-width: 1024px) {
+
+	/* сетка гридов: */
+
+	.grid-wrapper {
+		grid-template-columns: minmax(250px, 250px) auto;
+		grid-template-rows: minmax(790px, auto) auto;
+		max-width: 1024px;
+	}
+
+	.grid-wrapper-right-top {
+		grid-template-columns: auto;
+		grid-template-rows: 470px auto;
+	}
+
+
+	/* block - about  1024px */
+
+	.about {
+		background: #2B111E;
+	}
+
+	.about__name-logo {
+		margin-bottom: .26em;
+	}
+
+	.name-logo {
+		font-size: 2em;
+		padding-top: .95em;
+	}
+
+	.about__about-subtitle {
+		margin-bottom: 8.8em;
+	}
+
+	.about-subtitle {
+		font: normal 400 .7em montserrat;
+		letter-spacing: .12em;
+		text-align: center;
+	}
+
+	.contacts__contacts-subtitle {
+		margin-bottom: .3em;
+	}
+
+	.contacts__contacts-subtitle-description {
+		margin-bottom: 4em;
+	}
+
+	.contacts-subtitle-description {
+		font-size: .7em;
+		letter-spacing: .12em;
+	}
+
+	.contacts__avatar {
+		margin-bottom: 1.3em;
+	}
+
+	.avatar {
+		background-size: cover;
+		height: 118px;
+		width: 115px;
+	}
+
+	.about-me {
+		font-size: .7em;
+		letter-spacing: .08em;
+		padding: 0 3.7em;
+	}
+
+	.contacts__about-me {
+		margin-bottom: 1.4em;
+	}
+
+	.contacts__about-me:last-child {
+		margin-bottom: 7em;
+	}
+
+	.phone {
+		font-size: 1.1em;
+		letter-spacing: .02em;
+	}
+
+	.about-footer__email {
+		margin-bottom: 1.3em;
+	}
+
+	.email {
+		font-size: .7em;
+		letter-spacing: .12em;
+	}
+
+	.networks {
+		max-width: 168px;
+	}
+
+	.networks__item {
+		height: 30px;
+		width: 30px;
+		background-size: cover;
+	}
+
+	/* block - last projects - 1024px */
+
+	.last-projects__title-last-projects {
+		margin: .75em auto .25em; 
+	}
+
+	.title-last-projects {
+		padding-top: 0;
+	}
+
+	.projects {
+		max-width: 726px;
+	}
+
+	.project {
+		max-width: 350px;
+	}
+
+	.project__preview {
+		height: 289px;
+		width: 350px;
+		margin-bottom: .9em;
+	}
+
+	.project:last-child {
+		display: none;
+	}
+
+	.project__preview_first-project {
+		background: url(./img/projects-cases/axion/preview/preview-medium.png) no-repeat 0 10px;
+	}
+
+	.project__description_subtitle {
+		letter-spacing: .04em;
+	}
+
+	.project__description_lead {
+		font-size: .8em;
+	}
+
+	.link-to-preview {
+		font-size: .8em;
+	}
+
+	/* block - my-skills - 1024px */
+
+	.title-my-skills {
+		padding-bottom: .9em;
+	}
+
+	.wrapper-my-skills {
+		background-size: contain;
+		height: 122px;
+		max-width: 774px;
+	}
+
+	.animation-asteroids {
+	  background: url(./img/animation-asteroids-1024px.png) left;
+	  height: 122px;
+	  left: 362px;
+	}
+
+	.dotted-line-js,
+	.dotted-line-git,
+	.dotted-line-html,
+	.dotted-line-css,
+	.dotted-line-figma,
+	.dotted-line-php,
+	.dotted-line-sql,
+	.dotted-line-wp {
+		border-left: 2px dashed #000; 
+	}
+
+	.dotted-line-js {
+		height: 28px;
+		left: 126px;
+		top: 126px;
+	}
+
+	@keyframes dashed-js {
+	 from { transform: scaleY(0);  }
+	 to { transform: scaleY(2);  }
+	}
+
+	.dotted-line-git {
+		height: 28px;
+		left: 208px;
+		top: 76px;
+	}
+
+	@keyframes dashed-git {
+	 from { transform: scaleY(1.5);  }
+	 to { transform: scaleY(2);  }
+	}
+
+	.dotted-line-html {
+		height: 41px;
+		left: 249px;
+		top: 85px;
+	}
+
+	@keyframes dashed-html {
+	 from { transform: scaleY(1);  }
+	 to { transform: scaleY(2);  }
+	}
+
+	.dotted-line-css {
+		height: 52px;
+		left: 307px;
+		top: 95px;
+	}
+
+	@keyframes dashed-css {
+	 from { transform: scaleY(.6);  }
+	 to { transform: scaleY(2);  }
+	}
+
+	.dotted-line-figma {
+		height: 77px;
+		left: 350px;
+		top: 80px;
+	}
+
+	@keyframes dashed-figma {
+	 from { transform: scaleY(.6);  }
+	 to { transform: scaleY(2);  }
+	}
+
+	.dotted-line-php {
+		height: 13px;
+		left: 438px;
+		top: 105px;
+	}
+
+	@keyframes dashed-php {
+	 from { transform: scaleY(1);  }
+	 to { transform: scaleY(2);  }
+	}
+
+	.dotted-line-sql {
+		height: 36px;
+		left: 526px;
+		top: 104px;
+	}
+
+	@keyframes dashed-sql {
+	 from { transform: scaleY(.6);  }
+	 to { transform: scaleY(2);  }
+	}
+
+	.dotted-line-wp {
+		height: 60px;
+		left: 603px;
+		top: 95px;
+	}
+
+	@keyframes dashed-wp {
+	 from { transform: scaleY(.5);  }
+	 to { transform: scaleY(2);  }
+	}
+
+	.wrapper-skill-js {
+		left: 79px;
+		line-height: .5;
+		top: 124px;
+	}
+
+	@keyframes to-down-js {
+	 to { transform: translateY(59px); }
+	}
+
+	.wrapper-skill-git {
+		left: 192px;
+		top: 124px;
+	}
+
+	.wrapper-skill-html {
+		left: 220px;
+		top: 124px;
+	}
+
+	@keyframes to-down-html {
+		to { transform: translateY(43px); }
+	}
+
+	.wrapper-skill-css {
+		left: 287px;
+		top: 124px;
+	}
+
+	@keyframes to-down-css {
+	 to { transform: translateY(77px); }
+	}
+
+	.wrapper-skill-figma {
+		left: 318px;
+		top: 124px;
+	}
+
+	@keyframes to-down-figma {
+	 to { transform: translateY(110px); }
+	}
+
+	.wrapper-skill-php {
+		left: 418px;
+		line-height: .5;
+		top: 124px;
+	}
+
+	@keyframes to-down-php {
+	 to { transform: translateY(10px); }
+	}
+
+	.wrapper-skill-sql {
+		left: 483px;
+		line-height: .5;
+		top: 124px;
+	}
+
+	@keyframes to-down-sql {
+	 to { transform: translateY(54px); }
+	}
+
+	.wrapper-skill-wp {
+		left: 553px;
+		line-height: .5;
+		top: 124px;
+	}
+
+	@keyframes to-down-wp {
+	 to { transform: translateY(97px); }
+	}
+
+	.skill-js,
+	.skill-git,
+	.skill-html,
+	.skill-css,
+	.skill-figma,
+	.skill-php,
+	.skill-sql,
+	.skill-wp {
+		font-size: 1.1em;
+		letter-spacing: .03em;
+	}
+
+	.skill-js_basic,
+	.skill-php_basic,
+	.skill-sql_basic,
+	.skill-wp_basic {
+		font-size: .5em;
+		letter-spacing: .04em;
+	}
+
+	/* block adventages - 1024px */
+
+	.advantages__advantage:nth-child(2) {
+			margin-bottom: 29px;
+	}
+
+	.advantages__advantage:nth-child(3) {
+		margin-bottom: 28px;
+	}
+
+	.advantages__advantage:nth-child(4) {
+		margin-bottom: 26px;
+	}
+
+	.advantages__advantage:nth-child(5) {
+		margin-bottom: 29px;
+	}
+
+	.advantages__advantage:nth-child(6) {
+		margin-bottom: 25px;
+	}
+
+	.advantages__advantage:nth-child(7) {
+		margin-bottom: 50px;
+	}
+
+	.advantage {
+		grid-template-columns: minmax(100px, 252px) auto 43px;
+		max-width: 974px;
+		padding: 0 2em 0 1em;
+	}
+
+	.advantage__subtitle {
+		font-size: 1.5em;
+		padding: 0 1em;
+	}
+
+	.advantage__description {
+		font-size: .75em;
+		padding: 0 1.4em;
+	}
+
+	.advantage__image {
+		height: 43px;
+	}
+
+	.advantage__image_mobile,
+	.advantage__image_semantics,
+	.advantage__image_validity,
+	.advantage__image_pixel-perfect,
+	.advantage__image_optimization,
+	.advantage__image_bem {
+		background-size: contain;
+	}
+
+}
