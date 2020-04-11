@@ -4,23 +4,17 @@
 
 	.grid-wrapper {
 		display: block;
-		/*grid-template-columns: auto;*/
-		/*grid-template-rows: 500xp 500px 500px 500px;*/
-		/*margin: auto;*/
 		max-width: 768px;
 	}
 
 	.grid-wrapper-right-top {
 		display: block;
-		/*grid-template-columns: auto;*/
-		/*grid-template-rows: 420px auto;*/
 	}
 
 	/* about block 768px */
 
 	.about {
 	background: linear-gradient(to right, #2B111E 0%, #2B111E 50%, #fff 50%);
-		/*background: #2B111E;*/
 	}
 
 	.about-header__wrapper-logo {
@@ -38,11 +32,7 @@
 	}
 
 	.name-logo {
-		/*color: #fff;*/
-		/*font: normal 400 2em lobster;*/
-		/*font-size: 2em;*/
-		padding: 0.5em;
-		/*text-align: unset;*/
+		padding: .5em;
 	}
 
 	.about__about-subtitle {
@@ -51,28 +41,26 @@
 
 	.about-subtitle {
 		color: #2B111E;
-		/*font: normal 400 1em montserrat;*/
 		font-size: 1em;
 		letter-spacing: .08em;
-		/*text-align: unset;*/
-		padding: 1.1em 0.9em;
+		padding: 1.1em .9em;
+	}
+
+	.contacts {
+		position: relative;
 	}
 
 	.contacts__contacts-subtitle {
-		margin-bottom: 0.2em;
+		margin: 0 auto .3em;
 	}
 
 	.contacts-subtitle {
-		animation: contacts-subtitle-to-left .8s ease-in-out
- 1 forwards;
-		color: #fff;
-		font: normal 700 1em montserrat;
-		letter-spacing: .08em;
-		text-align: center;
-		/*background: red;*/
+		animation: contacts-subtitle-to-left .8s ease-in-out 1 forwards;
+		max-width: 180px;
 	}
 
 	@keyframes contacts-subtitle-to-left {
+		from { opacity: 0; }
 		to { transform: translateX(-26px); }
 	}
 
@@ -81,99 +69,126 @@
 	}
 
 	.contacts__contacts-subtitle-description {
-		margin: 0 auto 1.05em;
+		margin-bottom: 4em;
 	}
 
 	.contacts-subtitle-description {
-		color: #fff;
-		letter-spacing: .09em;
-		text-align: center;
+		animation: contacts-subtitle-to-right .8s ease-in-out 1 forwards;
+		font-size: 1em;
+		letter-spacing: .08em;
+		max-width: 230px;
+	}
+
+	@keyframes contacts-subtitle-to-right {
+		from { opacity: 0; }
+		to { transform: translateX(99px); }
 	}
 
 	.contacts__avatar {
-		margin: 0 auto 1em;
+		margin: 0 auto 5.6em;
 	}
 
 	.avatar {
-		background: url(./img/avatar.jpg) center;
-		border-radius: 50%;
-		height: 162px; /*164px*/
-		width: 162px; /*164px*/
+		height: 116px;
+		width: 116px;
 	}
 
-	.about-me {
-		color: #fff;
+	.contacts__about-me:nth-child(4) {
+		font-size: .9em;
+		left: 18%;
+		letter-spacing: .06em;
+		line-height: 1.2;
+		max-width: 222px;
+		padding: 0 1em;
+		position: absolute;
+		text-align: left;
+		top: 66px;
+	}
+
+	.about-me_forced-transfer {
+		padding-right: 3em;
+	}
+
+	.contacts__about-me:nth-child(5) {
+		color: #2B111E;
 		font-size: .9em;
 		letter-spacing: .06em;
-		padding: 0 .8em;
-		text-align: center;
+		line-height: 1.2;
+		max-width: 266px;
+		padding: 0 1em;
+		position: absolute;
+		right: 13%;
+		text-align: right;
+		top: 176px;
 	}
 
-	.contacts__about-me:last-child {
-		margin-bottom: 5.55em;
+	.about-me_forced-transfer-left {
+		padding-left: 3em;
+	}
+
+	.about-footer {
+		align-items: center;
+		display: flex;
+		flex-direction: row-reverse;
+		height: 5em;
+		justify-content: space-between;
+		padding: 0	1em;
 	}
 
 	.wrapper-phone-email {
-		margin: auto;
-		width: 206px;
+		margin: unset;
+		width: unset;
 	}
 
 	.about-footer__phone {
-		margin: 0 auto .05em;
+		margin: unset;
 	}
 
 	.phone {
-		color: #fff;
-		display: block;
-		font: normal 700 1.5em montserrat;
-		text-align: center;
+		color: #2B111E;
+		font: normal 700 1.4em montserrat;
+		font-size: 1.4em;
+		text-align: unset;
 		text-decoration: none;
 	}
 
 	.about-footer__email {
-		margin-bottom: 1em;
+		margin-bottom: unset;
 	}
 
 	.email {
-		color: #fff;
+		color: #2B111E;
 		display: block;
 		font: normal 400 1em montserrat;
-		text-align: center;
-		text-decoration: none;
 		letter-spacing: .08em;
+		text-align: unset;
+		text-decoration: none;
 	}
 
 	.about-footer__networks {
-		margin: auto;
+		margin: unset;
 	}
 
 	.networks {
 		display: flex;
 		justify-content: space-between;
 		max-width: 206px;
-		padding-bottom: 44px;
+		padding-bottom: unset;
 	}
 
 	.networks__item {
 		display: inline-block;
 		height: 38px;
+		margin: auto 1.1em;
 		width: 38px;
 	}
 
-	.networks__item_github {
-		background: url(./img/social-networks/github.png) no-repeat;
+	.networks__item:nth-child(1) {
+		margin-left: 0;
 	}
 
-	.networks__item_telegram {
-		background: url(./img/social-networks/telegram.png) no-repeat;
-	}
-
-	.networks__item_linkedin {
-		background: url(./img/social-networks/linkedin.png) no-repeat;
-	}
-
-	.networks__item_twitter {
-		background: url(./img/social-networks/twitter.png) no-repeat;
+	.networks__item:nth-child(4) {
+		margin-right: 0;
 	}
 
 
@@ -181,6 +196,18 @@
 
 
 
+
+
+
+
+
+
+
+.last-projects,
+.my-skills,
+.advantages {
+	display: none;
+}
 
 
 
