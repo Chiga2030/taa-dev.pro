@@ -355,6 +355,10 @@
 
 	/* block adventages - 1024px */
 
+	.advantages__advantage:nth-child(1) {
+			margin-bottom: 29px;
+	}
+
 	.advantages__advantage:nth-child(2) {
 			margin-bottom: 29px;
 	}
@@ -372,11 +376,7 @@
 	}
 
 	.advantages__advantage:nth-child(6) {
-		margin-bottom: 25px;
-	}
-
-	.advantages__advantage:nth-child(7) {
-		margin-bottom: 50px;
+		margin-bottom: 46px;
 	}
 
 	.advantage {
