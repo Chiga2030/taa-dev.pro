@@ -56,7 +56,7 @@
 
 	.contacts-subtitle {
 		animation: contacts-subtitle-to-left .8s ease-in-out 1 forwards;
-		max-width: 180;
+		max-width: 180px;
 	}
 
 	@keyframes contacts-subtitle-to-left {
@@ -76,7 +76,7 @@
 		animation: contacts-subtitle-to-right .8s ease-in-out 1 forwards;
 		font-size: 1em;
 		letter-spacing: .08em;
-		max-width: 230;
+		max-width: 230px;
 	}
 
 	@keyframes contacts-subtitle-to-right {
@@ -218,7 +218,7 @@
 	.animation-asteroids {
 	  background:  url(./img/animation-asteroids-768px.png) left;
 	  bottom: 1px;
-	  height: 70;
+	  height: 70px;
 	  left: 356px;
 	}
 
@@ -283,7 +283,7 @@
 	}
 
 	.dotted-line-figma {
-	  bottom: 20;
+	  bottom: 20px;
 		height: 25px;
 		left: 348px;
 		top: unset;
@@ -349,8 +349,8 @@
 	}
 
 	@keyframes to-down-git {
-	 from { transform: translateY(100); }
-	 to { transform: translateY(0); }
+	 from { transform: translateY(100px); }
+	 to { transform: translateY(0px); }
 	}
 
 	.wrapper-skill-html {
@@ -360,7 +360,7 @@
 	}
 
 	@keyframes to-down-html {
-	 from { transform: translateY(70); }
+	 from { transform: translateY(70px); }
 	 to { transform: translateY(0); }
 	}
 
@@ -377,7 +377,7 @@
 
 	.wrapper-skill-figma {
 	  bottom: 119px;
-		left: 320;
+		left: 320px;
 		top: unset;
 	}
 
@@ -394,7 +394,7 @@
 	}
 
 	@keyframes to-down-php {
-	 from { transform: translateY(60); }
+	 from { transform: translateY(60px); }
 	 to { transform: translateY(0); }
 	}
 
@@ -453,7 +453,7 @@
 	.wrapper-advantages {
 		display: grid;
 		grid-template-columns: repeat(23, 1fr);
-		grid-template-rows: repeat(54, 10);
+		grid-template-rows: repeat(54, 10px);
 		padding: 0 1em 1.8em 1em;
 	}
 
@@ -518,7 +518,7 @@
 		display: block;
 		grid-template-columns: unset;
 		max-width: unset;
-		padding: 0 0 0 0;
+		padding: 0;
 		position: relative;
 	}
 
@@ -539,7 +539,8 @@
 	}
 
 	.advantage__image_mobile {
-		background: url(./img/advantages/mobile.png) no-repeat center cover;
+		background: url(./img/advantages/mobile.png) no-repeat center;
+		background-size: cover;
 		height: 41px;
 		position: absolute;
 		right: 4px;
@@ -548,7 +549,8 @@
 	}
 
 	.advantage__image_semantics {
-		background: url(./img/advantages/semantics.png) no-repeat center cover;
+		background: url(./img/advantages/semantics.png) no-repeat center;
+		background-size: cover;
 		height: 43px;
 		position: absolute;
 		right: 0;
@@ -557,7 +559,8 @@
 	}
 
 	.advantage__image_validity {
-		background: url(./img/advantages/validity.png) no-repeat center cover;
+		background: url(./img/advantages/validity.png) no-repeat center;
+		background-size: cover;
 		height: 43px;
 		position: absolute;
 		right: 4px;
@@ -566,7 +569,8 @@
 	}
 
 	.advantage__image_pixel-perfect {
-		background: url(./img/advantages/pixel-perfect.png) no-repeat center cover;
+		background: url(./img/advantages/pixel-perfect.png) no-repeat center;
+		background-size: cover;
 		height: 44px;
 		position: absolute;
 		right: 3px;
@@ -575,7 +579,8 @@
 	}
 
 	.advantage__image_optimization {
-		background: url(./img/advantages/optimization.png) no-repeat center cover;
+		background: url(./img/advantages/optimization.png) no-repeat center;
+		background-size: cover;
 		height: 43px;
 		position: absolute;
 		right: 4px;
@@ -584,7 +589,8 @@
 	}
 
 	.advantage__image_bem {
-		background: url(./img/advantages/bem.png) no-repeat center cover;
+		background: url(./img/advantages/bem.png) no-repeat center;
+		background-size: cover;
 		height: 43px;
 		position: absolute;
 		right: 4px;
