@@ -1,0 +1,120 @@
+@media (max-width: 375px) {
+
+	/* about block 768px */
+
+	.about {
+		background: #2B111E;
+		height: 260px;
+		padding-top: 14.8em;
+		position: relative;
+	}
+
+	.about::after {
+		background: #2B111E;
+		bottom: -50px;
+		content: '';
+		height: 100px;
+		position: absolute;
+		transform: skewY(-15deg);
+		width: 100%;
+		z-index: -1;
+	}
+
+	.about-wrapper-for-mobile-view {
+		background: #fff;
+		border-radius: 50%;
+		height: 241px;
+		margin: auto;
+		width: 241px;
+	}
+
+	.about-header__wrapper-logo {
+		flex-direction: column-reverse;
+		margin: 0 auto 1.4em;
+	}
+
+	.name-logo {
+		color: #2B111E;
+		padding: 1.3em 0 0;
+	}
+
+	.about-subtitle {
+		color: #fff;
+		font-size: 1.5em;
+		padding: 0;
+		position: absolute;
+		top: 4.14em;
+	}
+
+	.contacts-subtitle {
+		display: none;
+	}
+
+	.contacts-subtitle-description {
+		display: none;
+	}
+
+	.avatar {
+		display: none;
+	}
+
+	.about-me {
+		display: none;
+	}
+
+	.about-footer {
+		flex-direction: column-reverse;
+		height: auto;
+	}
+
+	.about-footer__phone {
+		margin-bottom: .5em;
+	}
+
+	.phone {
+		color: #2B111E;
+		font: normal 400 1.1em montserrat;
+		text-align: center;
+	}
+
+	.networks {
+		height: 20px;
+		margin-bottom: 1em;
+		max-width: 104px;
+	}
+
+	.networks__item {
+		display: inline-block;
+		height: 20px;
+		margin: 0 .5em;
+		width: 20px;
+	}
+
+	.networks__item_github {
+		background: url(./img/social-networks/github-dark.png) no-repeat;
+	}
+
+	.networks__item_telegram {
+		background: url(./img/social-networks/telegram-dark.png) no-repeat;
+	}
+
+	.networks__item_linkedin {
+		background: url(./img/social-networks/linkedin-dark.png) no-repeat;
+	}
+
+	.networks__item_twitter {
+		background: url(./img/social-networks/twitter-dark.png) no-repeat;
+	}
+
+
+
+
+
+.last-projects,
+.my-skills,
+.advantages {
+	display: none;
+}
+
+
+}
