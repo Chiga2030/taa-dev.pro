@@ -151,7 +151,7 @@
 	}
 
 	.wrapper-my-skills {
-		background-size: contain;
+		background-size: cover;
 		height: 122px;
 		max-width: 774px;
 	}

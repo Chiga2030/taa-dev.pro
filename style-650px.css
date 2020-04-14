@@ -1,0 +1,75 @@
+@media (max-width: 650px) {
+
+	/* block my-skills - 650px */
+
+	.wrapper-my-skills {
+		background-position: left bottom;
+		background-size: 90%;
+	}
+
+		.animation-asteroids {
+	  background:  url(./img/animation-asteroids-768px.png) left;
+	  bottom: 1px;
+	  height: 70px;
+	  left: calc(356px - 90px);
+	}
+
+	.dotted-line-js {
+	  bottom: 69px;
+		height: 2px;
+		/*left: 125px;*/
+	  left: calc(125px - 28px);
+
+		top: unset;
+	}
+
+	.dotted-line-git {
+	  bottom: 17px;
+		height: 26px;
+		left: 206px;
+		top: unset;
+	}
+
+	.dotted-line-html {
+	  bottom: 26px;
+		height: 19px;
+		left: 246px;
+		top: unset;
+	}
+
+	.dotted-line-css {
+	  bottom: 26px;
+		height: 14px;
+		left: 304px;
+		top: unset;
+	}
+
+	.dotted-line-figma {
+	  bottom: 20px;
+		height: 25px;
+		left: 348px;
+		top: unset;
+	}
+
+	.dotted-line-php {
+	  bottom: 45px;
+		height: 15px;
+		left: 434px;
+		top: unset;
+	}
+
+	.dotted-line-sql {
+	  bottom: 41px;
+		height: 7px;
+		left: 519px;
+		top: unset;
+	}
+
+	.dotted-line-wp {
+	  bottom: 33px;
+		height: 18px;
+		left: 599px;
+		top: unset;
+	}
+
+}

@@ -226,7 +226,6 @@
 	}
 
 	.wrapper-advantages {
-		/*background: red;*/
 		display: flex;
 		flex-direction: column;
 	}
