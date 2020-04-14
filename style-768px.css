@@ -95,7 +95,7 @@
 
 	.contacts__about-me:nth-child(4) {
 		font-size: .9em;
-		left: 18%;
+		right: 49%;
 		letter-spacing: .06em;
 		line-height: 1.2;
 		max-width: 222px;
@@ -117,9 +117,9 @@
 		max-width: 266px;
 		padding: 0 1em;
 		position: absolute;
-		right: 13%;
+		left: 49%;
 		text-align: right;
-		top: 176px;
+		top: 180px;
 	}
 
 	.about-me_forced-transfer-left {
@@ -194,11 +194,19 @@
 	/* block - last projects - 768px */
 
 	.last-projects {
-		margin-bottom: 1.9em;
+		margin-bottom: 0.9em;
 	}
 
 	.last-projects__title-last-projects {
-		margin: 1.4em auto .15em; 
+		margin: 1.4em auto 0.15em; 
+	}
+
+	.projects {
+		flex-wrap: wrap;
+	}
+
+	.project {
+		margin: 0 auto 1em;
 	}
 
 	.link-to-preview::after {
