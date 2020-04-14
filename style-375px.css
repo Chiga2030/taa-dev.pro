@@ -80,33 +80,35 @@
 	.networks {
 		height: 20px;
 		margin-bottom: 1em;
-		max-width: 104px;
+		width: 104px;
 	}
 
 	.networks__item {
 		display: inline-block;
 		height: 20px;
-		margin: 0 .5em;
+		margin: 0;
 		width: 20px;
 	}
 
 	.networks__item_github {
 		background: url(./img/social-networks/github-dark.png) no-repeat;
+		background-size: cover;
 	}
 
 	.networks__item_telegram {
 		background: url(./img/social-networks/telegram-dark.png) no-repeat;
+		background-size: cover;
 	}
 
 	.networks__item_linkedin {
 		background: url(./img/social-networks/linkedin-dark.png) no-repeat;
+		background-size: cover;
 	}
 
 	.networks__item_twitter {
 		background: url(./img/social-networks/twitter-dark.png) no-repeat;
+		background-size: cover;
 	}
-
-
 
 
 
