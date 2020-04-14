@@ -218,7 +218,7 @@
 	/* block - my-skills - 768px */
 
 	.wrapper-my-skills {
-		background: url(./img/background-skills-768px.png) no-repeat bottom;
+		background: url(./img/background-skills-768px.png) no-repeat left bottom;
 		height: 184px;
 		max-width: 768px;
 	}
