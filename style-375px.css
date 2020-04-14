@@ -110,9 +110,84 @@
 		background-size: cover;
 	}
 
+	/* block - last projects - 375px */
+
+	.last-projects__title-last-projects{
+		margin-bottom: 1.9em;
+	}
+
+	.title-last-projects {
+		font-size: 1em;
+		letter-spacing: 0.08em;
+		padding-top: 5.3em;
+	}
+
+	.title-last-projects::before,
+	.title-last-projects::after {
+		height: 20px;
+		width: 26px;
+	}
+
+	.title-last-projects::before {
+		transform: translate(-41px, -1px);
+	}
+
+	.title-last-projects::after {
+		transform: translate(15px, -1px);
+	}
+
+	.projects {
+		padding: 0;
+	}
+
+	.project {
+		max-width: 375px;
+		margin-bottom: 1.6em;
+
+	}
+
+	.name-of-project {
+		font-size: 0.8em;
+	}
+
+	.project__preview {
+		height: 321px;
+		max-width: 375px;
+		margin: 0 auto 0.3em;
+	}
+
+	.project__preview_first-project {
+		background: url(./img/projects-cases/axion/preview/preview-375px.png) no-repeat  -13px 11px;
+	}
+
+	.project__description_subtitle {
+		padding: 0 1em;
+	}
+
+	.project__description_lead {
+		padding: 0 1em;
+	}
+
+	.link-to-preview {
+		padding: 0 1em;
+	}
 
 
-.last-projects,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .my-skills,
 .advantages {
 	display: none;
