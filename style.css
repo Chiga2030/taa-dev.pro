@@ -358,17 +358,17 @@ body {
 }
 
 .dotted-line-js {
-  animation: dashed-js 2s ease-in-out 1 forwards;
-  bottom: -21px;		/*!! test prop*/
-	height: 19px;
+  /*animation: dashed-js 2s ease-in-out 1 forwards;*/
+  bottom: -75px;		/*!! test prop*/
+	height: 73px;
 	left: 171px;
 	/*top: 166px;*/
 }
 
-@keyframes dashed-js {
+/*@keyframes dashed-js {
  from { transform: scaleY(.1);  }
  to { transform: scaleY(3.8);  }
-}
+}*/
 
 .dotted-line-git {
   animation: dashed-git 2s ease-in-out 1 forwards;
@@ -455,18 +455,18 @@ body {
 }
 
 .wrapper-skill-js {
-  animation: to-down-js 2s ease-in-out 1 forwards;
-  bottom: -50px; 			/*test prop*/
+  /*animation: to-down-js 2s ease-in-out 1 forwards;*/
+  bottom: -126px; 			/*test prop*/
 	left: 95px;
 	line-height: .9;
 	position: absolute;
 	/*top: 170px;*/
 }
-
+/*
 @keyframes to-down-js {
  from { transform: translateY(0); }
  to { transform: translateY(76px); }
-}
+}*/
 
 .wrapper-skill-git {
   animation: to-down-git 2s ease-in-out 1 forwards;
