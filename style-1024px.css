@@ -174,9 +174,10 @@
 	}
 
 	.dotted-line-js {
+		bottom: -32px;	/*test prop*/
 		height: 28px;
 		left: 126px;
-		top: 126px;
+		/*top: 126px;*/
 	}
 
 	@keyframes dashed-js {

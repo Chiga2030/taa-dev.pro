@@ -20,7 +20,7 @@
 		/*left: 125px;*/
 	  left: calc(125px - 28px);
 
-		top: unset;
+		/*top: unset;*/
 	}
 
 	.dotted-line-git {

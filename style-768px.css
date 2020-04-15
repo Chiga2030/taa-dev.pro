@@ -1,5 +1,5 @@
-@media (max-width: 768px) and (orientation:portrait) {
-
+@media (max-width: 768px) {
+	
 	/* сетка гридов: */
 
 	.grid-wrapper {
@@ -246,7 +246,7 @@
 	  bottom: 69px;
 		height: 2px;
 		left: 125px;
-		top: unset;
+		/*top: unset;*/
 	}
 
 	@keyframes dashed-js {

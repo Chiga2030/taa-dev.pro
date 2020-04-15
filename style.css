@@ -359,9 +359,10 @@ body {
 
 .dotted-line-js {
   animation: dashed-js 2s ease-in-out 1 forwards;
+  bottom: -21px;		/*!! test prop*/
 	height: 19px;
 	left: 171px;
-	top: 166px;
+	/*top: 166px;*/
 }
 
 @keyframes dashed-js {
