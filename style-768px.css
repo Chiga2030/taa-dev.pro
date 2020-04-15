@@ -246,97 +246,77 @@
 	  bottom: 69px;
 		height: 8px;
 		left: 125px;
-		/*top: unset;*/
 	}
-
-/*	@keyframes dashed-js {
-	 from { transform: scaleY(.1);  }
-	 to { transform: scaleY(3.8);  }
-	}*/
 
 	.dotted-line-git {
 	  bottom: 16px;
 		height: 102px;
 		left: 206px;
-		/*top: unset;*/
 	}
-/*
+
 	@keyframes dashed-git {
-	 from { transform: scaleY(.1);  }
-	 to { transform: scaleY(3.8);  }
-	}*/
+	 from { transform: scaleY(0);  }
+	}
 
 	.dotted-line-html {
 	  bottom: 26px;
 		height: 72px;
 		left: 246px;
-		/*top: unset;*/
 	}
-/*
+
 	@keyframes dashed-html {
-	 from { transform: scaleY(.1);  }
-	 to { transform: scaleY(3.8);  }
-	}*/
+	 from { transform: scaleY(0);  }
+	}
 
 	.dotted-line-css {
 	  bottom: 26px;
 		height: 56px;
 		left: 304px;
-		/*top: unset;*/
 	}
-/*
+
 	@keyframes dashed-css {
-	 from { transform: scaleY(.1);  }
-	 to { transform: scaleY(3.8);  }
-	}*/
+	 from { transform: scaleY(0);  }
+	}
 
 	.dotted-line-figma {
 	  bottom: 20px;
 		height: 95px;
 		left: 348px;
-		/*top: unset;*/
 	}
-/*
+
 	@keyframes dashed-figma {
-	 from { transform: scaleY(.1);  }
-	 to { transform: scaleY(3.8);  }
-	}*/
+	 from { transform: scaleY(0);  }
+	}
 
 	.dotted-line-php {
 	  bottom: 45px;
 		height: 56px;
 		left: 434px;
-		/*top: unset;*/
 	}
-/*
+
 	@keyframes dashed-php {
-	 from { transform: scaleY(.1);  }
-	 to { transform: scaleY(3.8);  }
-	}*/
+	 from { transform: scaleY(0);  }
+	}
 
 	.dotted-line-sql {
 	  bottom: 41px;
 		height: 25px;
 		left: 519px;
-		/*top: unset;*/
 	}
-/*
+
 	@keyframes dashed-sql {
-	 from { transform: scaleY(.1);  }
-	 to { transform: scaleY(3.8);  }
-	}*/
+	 from { transform: scaleY(0);  }
+	}
 
 	.dotted-line-wp {
 	  bottom: 33px;
 		height: 71px;
 		left: 599px;
-		/*top: unset;*/
 	}
-/*
+
 	@keyframes dashed-wp {
-	 from { transform: scaleY(.1);  }
-	 to { transform: scaleY(3.8);  }
-	}*/
+	 from { transform: scaleY(0);  }
+	}
 
 	.wrapper-skill-js {
 		bottom: 87px;
