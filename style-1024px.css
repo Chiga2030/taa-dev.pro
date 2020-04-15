@@ -263,11 +263,9 @@
 	}
 
 	.wrapper-skill-js {
-		bottom: -93px;		/*test prop*/
+		bottom: -93px;
 		left: 79px;
 		line-height: .5;
-		/*top: 124px;*/
-		/*transform: translateY(100px);*/
 	}
 
 	@keyframes to-down-js {
@@ -275,65 +273,65 @@
 	}
 
 	.wrapper-skill-git {
+		bottom: -33px;
 		left: 192px;
-		top: 124px;
 	}
 
 	.wrapper-skill-html {
+		bottom: -66px;
 		left: 220px;
-		top: 124px;
 	}
 
 	@keyframes to-down-html {
-		to { transform: translateY(43px); }
+		from { transform: translateY(-43px); }
 	}
 
 	.wrapper-skill-css {
+		bottom: -99px;
 		left: 287px;
-		top: 124px;
 	}
 
 	@keyframes to-down-css {
-	 to { transform: translateY(77px); }
+	 from { transform: translateY(-77px); }
 	}
 
 	.wrapper-skill-figma {
+		bottom: -133px;
 		left: 318px;
-		top: 124px;
 	}
 
 	@keyframes to-down-figma {
-	 to { transform: translateY(110px); }
+	 from { transform: translateY(-110px); }
 	}
 
 	.wrapper-skill-php {
+		bottom: -44px;
 		left: 418px;
 		line-height: .5;
-		top: 124px;
 	}
 
 	@keyframes to-down-php {
-	 to { transform: translateY(10px); }
+	 from { transform: translateY(-10px); }
 	}
 
 	.wrapper-skill-sql {
+		bottom: -88px;
 		left: 483px;
 		line-height: .5;
-		top: 124px;
 	}
 
 	@keyframes to-down-sql {
-	 to { transform: translateY(54px); }
+	 from { transform: translateY(-54px); }
 	}
 
 	.wrapper-skill-wp {
+		bottom: -133px;
 		left: 553px;
 		line-height: .5;
-		top: 124px;
 	}
 
 	@keyframes to-down-wp {
-	 to { transform: translateY(97px); }
+	 from { transform: translateY(-97px); }
 	}
 
 	.skill-js,

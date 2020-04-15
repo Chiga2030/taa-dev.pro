@@ -456,11 +456,10 @@ body {
 
 .wrapper-skill-js {
   animation: to-down-js 2s ease-in-out 1 forwards;
-  bottom: -126px; 			/*test prop*/
+  bottom: -126px;
 	left: 95px;
 	line-height: .9;
 	position: absolute;
-	/*top: 170px;*/
 }
 
 @keyframes to-down-js {
@@ -470,89 +469,89 @@ body {
 
 .wrapper-skill-git {
   animation: to-down-git 2s ease-in-out 1 forwards;
+  bottom: -44px;
 	left: 258px;
 	position: absolute;
-	top: 170px;
 }
 
 @keyframes to-down-git {
- from { transform: translateY(0); }
- to { transform: translateY(10px); }
+ from { transform: translateY(-10px); }
+ to { transform: translateY(0); }
 }
 
 .wrapper-skill-html {
   animation: to-down-html 2s ease-in-out 1 forwards;
+  bottom: -90px;
 	left: 297px;
 	position: absolute;
-	top: 170px;
 }
 
 @keyframes to-down-html {
- from { transform: translateY(0); }
- to { transform: translateY(54px); }
+ from { transform: translateY(-54px); }
+ to { transform: translateY(0); }
 }
 
 .wrapper-skill-css {
   animation: to-down-css 2s ease-in-out 1 forwards;
+  bottom: -134px;
 	left: 386px;
 	position: absolute;
-	top: 170px;
 }
 
 @keyframes to-down-css {
- from { transform: translateY(0); }
- to { transform: translateY(99px); }
+ from { transform: translateY(-99px); }
+ to { transform: translateY(0); }
 }
 
 .wrapper-skill-figma {
   animation: to-down-figma 2s ease-in-out 1 forwards;
+  bottom: -180px;
 	left: 428px;
 	position: absolute;
-	top: 170px;
 }
 
 @keyframes to-down-figma {
- from { transform: translateY(0); }
- to { transform: translateY(144px); }
+ from { transform: translateY(-144px); }
+ to { transform: translateY(0); }
 }
 
 .wrapper-skill-php {
   animation: to-down-php 2s ease-in-out 1 forwards;
+  bottom: -59px;
 	left: 560px;
 	line-height: .9;
 	position: absolute;
-	top: 170px;
 }
 
 @keyframes to-down-php {
- from { transform: translateY(0); }
- to { transform: translateY(9px); }
+ from { transform: translateY(-9px); }
+ to { transform: translateY(0); }
 }
 
 .wrapper-skill-sql {
   animation: to-down-sql 2s ease-in-out 1 forwards;
+  bottom: -119px;
 	left: 659px;
 	line-height: .9;
 	position: absolute;
-	top: 170px;
 }
 
 @keyframes to-down-sql {
- from { transform: translateY(0); }
- to { transform: translateY(69px); }
+ from { transform: translateY(-69px); }
+ to { transform: translateY(0); }
 }
 
 .wrapper-skill-wp {
   animation: to-down-wp 2s ease-in-out 1 forwards;
+  bottom: -179px;
 	left: 737px;
 	line-height: .9;
 	position: absolute;
-	top: 170px;
 }
 
 @keyframes to-down-wp {
- from { transform: translateY(0); }
- to { transform: translateY(130px); }
+ from { transform: translateY(-130px); }
+ to { transform: translateY(0); }
 }
 
 .skill-js,
