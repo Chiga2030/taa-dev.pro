@@ -13,7 +13,7 @@
 	  height: 70px;
 	  left: calc(356px - 90px);
 	}
-
+/*TODO: продолжить выравнивать вертикальные линии после фикса анимаций*/
 	.dotted-line-js {
 	  bottom: 69px;
 		height: 2px;
