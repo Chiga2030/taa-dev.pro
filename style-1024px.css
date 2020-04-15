@@ -186,81 +186,88 @@
 	}*/
 
 	.dotted-line-git {
-		height: 28px;
+		bottom: -11px;
+		height: 57px;
 		left: 208px;
-		top: 76px;
+		/*top: 76px;*/
 	}
-
+/*
 	@keyframes dashed-git {
 	 from { transform: scaleY(1.5);  }
 	 to { transform: scaleY(2);  }
-	}
+	}*/
 
 	.dotted-line-html {
-		height: 41px;
+		bottom: -45px;
+		height: 82px;
 		left: 249px;
-		top: 85px;
+		/*top: 85px;*/
 	}
-
+/*
 	@keyframes dashed-html {
 	 from { transform: scaleY(1);  }
 	 to { transform: scaleY(2);  }
-	}
+	}*/
 
 	.dotted-line-css {
-		height: 52px;
+		bottom: -77px;
+		height: 104px;
 		left: 307px;
-		top: 95px;
+		/*top: 95px;*/
 	}
-
+/*
 	@keyframes dashed-css {
 	 from { transform: scaleY(.6);  }
 	 to { transform: scaleY(2);  }
-	}
+	}*/
 
 	.dotted-line-figma {
-		height: 77px;
+		bottom: -111px;
+		height: 153px;
 		left: 350px;
-		top: 80px;
+		/*top: 80px;*/
 	}
-
+/*
 	@keyframes dashed-figma {
 	 from { transform: scaleY(.6);  }
 	 to { transform: scaleY(2);  }
-	}
+	}*/
 
 	.dotted-line-php {
-		height: 13px;
+		bottom: -8px;
+		height: 24px;
 		left: 438px;
-		top: 105px;
+		/*top: 105px;*/
 	}
-
+/*
 	@keyframes dashed-php {
 	 from { transform: scaleY(1);  }
 	 to { transform: scaleY(2);  }
-	}
+	}*/
 
 	.dotted-line-sql {
-		height: 36px;
+		bottom: -54px;
+		height: 72px;
 		left: 526px;
-		top: 104px;
+		/*top: 104px;*/
 	}
-
+/*
 	@keyframes dashed-sql {
 	 from { transform: scaleY(.6);  }
 	 to { transform: scaleY(2);  }
-	}
+	}*/
 
 	.dotted-line-wp {
-		height: 60px;
+		bottom: -93px;
+		height: 120px;
 		left: 603px;
-		top: 95px;
+		/*top: 95px;*/
 	}
-
+/*
 	@keyframes dashed-wp {
 	 from { transform: scaleY(.5);  }
 	 to { transform: scaleY(2);  }
-	}
+	}*/
 
 	.wrapper-skill-js {
 		bottom: -93px;

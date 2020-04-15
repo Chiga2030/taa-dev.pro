@@ -371,88 +371,95 @@ body {
 }*/
 
 .dotted-line-git {
-  animation: dashed-git 2s ease-in-out 1 forwards;
-	height: 19px;
+  /*animation: dashed-git 2s ease-in-out 1 forwards;*/
+  bottom: -8px;
+	height: 73px;
 	left: 280px;
-	top: 99px;
+	/*top: 99px;*/
 }
-
+/*
 @keyframes dashed-git {
  from { transform: scaleY(3.5);  }
  to { transform: scaleY(3.8);  }
-}
+}*/
 
 .dotted-line-html {
-  animation: dashed-html 2s ease-in-out 1 forwards;
-	height: 29px;
+  /*animation: dashed-html 2s ease-in-out 1 forwards;*/
+  bottom: -60px;
+	height: 113px;
 	left: 335px;
-	top: 111px;
+	/*top: 111px;*/
 }
-
+/*
 @keyframes dashed-html {
  from { transform: scaleY(2.1);  }
  to { transform: scaleY(3.8);  }
-}
+}*/
 
 .dotted-line-css {
-  animation: dashed-css 2s ease-in-out 1 forwards;
-	height: 38px;
+  /*animation: dashed-css 2s ease-in-out 1 forwards;*/
+  bottom: -105px;
+	height: 145px;
 	left: 412px;
-	top: 124px;
+	/*top: 124px;*/
 }
-
+/*
 @keyframes dashed-css {
  from { transform: scaleY(1.2);  }
  to { transform: scaleY(3.8);  }
-}
+}*/
 
 .dotted-line-figma {
-  animation: dashed-figma 2s ease-in-out 1 forwards;
-	height: 55px;
+  /*animation: dashed-figma 2s ease-in-out 1 forwards;*/
+  bottom: -150px;
+	height: 211px;
 	left: 471px;
-	top: 104px;
+	/*top: 104px;*/
 }
-
+/*
 @keyframes dashed-figma {
  from { transform: scaleY(1.2);  }
  to { transform: scaleY(3.8);  }
-}
+}*/
 
 .dotted-line-php {
-  animation: dashed-php 2s ease-in-out 1 forwards;
-	height: 9px;
+  /*animation: dashed-php 2s ease-in-out 1 forwards;*/
+  bottom: -15px;
+	height: 40px;
 	left: 588px;
-	top: 139px;
+	/*top: 139px;*/
 }
-
+/*
 @keyframes dashed-php {
  from { transform: scaleY(3.2);  }
  to { transform: scaleY(3.8);  }
-}
+}*/
 
 .dotted-line-sql {
-  animation: dashed-sql 2s ease-in-out 1 forwards;
-	height: 27px;
+  /*animation: dashed-sql 2s ease-in-out 1 forwards;*/
+  bottom: -75px;
+	height: 103px;
 	left: 707px;
-	top: 136px;
+	/*top: 136px;*/
 }
-
+/*
 @keyframes dashed-sql {
  from { transform: scaleY(1.2);  }
  to { transform: scaleY(3.8);  }
-}
+}*/
 
 .dotted-line-wp {
-  animation: dashed-wp 2s ease-in-out 1 forwards;
-	height: 44px;
+  /*animation: dashed-wp 2s ease-in-out 1 forwards;*/
+  bottom: -129px;
+	height: 169px;
 	left: 811px;
-	top: 124px;
+	/*top: 124px;*/
 }
-
+/*
 @keyframes dashed-wp {
  from { transform: scaleY(1);  }
  to { transform: scaleY(3.8);  }
-}
+}*/
 
 .wrapper-skill-js {
   animation: to-down-js 2s ease-in-out 1 forwards;
