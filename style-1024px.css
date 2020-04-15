@@ -267,11 +267,12 @@
 		left: 79px;
 		line-height: .5;
 		/*top: 124px;*/
+		/*transform: translateY(100px);*/
 	}
-/*
+
 	@keyframes to-down-js {
-	 to { transform: translateY(59px); }
-	}*/
+	 from { transform: translateY(-59px); }
+	}
 
 	.wrapper-skill-git {
 		left: 192px;

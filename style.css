@@ -455,18 +455,18 @@ body {
 }
 
 .wrapper-skill-js {
-  /*animation: to-down-js 2s ease-in-out 1 forwards;*/
+  animation: to-down-js 2s ease-in-out 1 forwards;
   bottom: -126px; 			/*test prop*/
 	left: 95px;
 	line-height: .9;
 	position: absolute;
 	/*top: 170px;*/
 }
-/*
+
 @keyframes to-down-js {
- from { transform: translateY(0); }
- to { transform: translateY(76px); }
-}*/
+ from { transform: translateY(-76px); }
+ to { transform: translateY(0); }
+}
 
 .wrapper-skill-git {
   animation: to-down-git 2s ease-in-out 1 forwards;
