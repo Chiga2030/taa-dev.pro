@@ -178,12 +178,6 @@
 		padding: 0 1em;
 	}
 
-	/* block - my-skills - 375px */
-
-	.my-skills {
-		display: none;
-	}
-
 	/* block adventages - 375px */
 
 	.advantages::before {
@@ -225,45 +219,32 @@
 		transform: translate(8px, -1px);
 	}
 
-	.wrapper-advantages {
-		display: flex;
-		flex-direction: column;
-	}
-
 	.advantage {
 		max-width: 252px;
-		margin: auto;
 	}
-
 
 	.advantages__advantage:nth-child(1) {
 		margin-bottom: 36px;
-		order: 1;
 	}
 
 	.advantages__advantage:nth-child(2) {
 		margin-bottom: 68px;
-		order: 2;
 	}
 
 	.advantages__advantage:nth-child(3) {
 		margin-bottom: 38px;
-		order: 3;
 	}
 
 	.advantages__advantage:nth-child(4) {
 		margin-bottom: 56px;
-		order: 4;
 	}
 
 	.advantages__advantage:nth-child(5) {
 		margin-bottom: 38px;
-		order: 5;
 	}
 
 	.advantages__advantage:nth-child(6) {
 		margin-bottom: 23px;
-		order: 6;
 	}
 
 }
