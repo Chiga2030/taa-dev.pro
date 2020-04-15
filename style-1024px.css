@@ -174,163 +174,123 @@
 	}
 
 	.dotted-line-js {
-		height: 28px;
+		bottom: -60px;
+		height: 55px;
 		left: 126px;
-		top: 126px;
-	}
-
-	@keyframes dashed-js {
-	 from { transform: scaleY(0);  }
-	 to { transform: scaleY(2);  }
 	}
 
 	.dotted-line-git {
-		height: 28px;
+		bottom: -11px;
+		height: 57px;
 		left: 208px;
-		top: 76px;
-	}
-
-	@keyframes dashed-git {
-	 from { transform: scaleY(1.5);  }
-	 to { transform: scaleY(2);  }
 	}
 
 	.dotted-line-html {
-		height: 41px;
+		bottom: -45px;
+		height: 82px;
 		left: 249px;
-		top: 85px;
-	}
-
-	@keyframes dashed-html {
-	 from { transform: scaleY(1);  }
-	 to { transform: scaleY(2);  }
 	}
 
 	.dotted-line-css {
-		height: 52px;
+		bottom: -77px;
+		height: 104px;
 		left: 307px;
-		top: 95px;
-	}
-
-	@keyframes dashed-css {
-	 from { transform: scaleY(.6);  }
-	 to { transform: scaleY(2);  }
 	}
 
 	.dotted-line-figma {
-		height: 77px;
+		bottom: -111px;
+		height: 153px;
 		left: 350px;
-		top: 80px;
-	}
-
-	@keyframes dashed-figma {
-	 from { transform: scaleY(.6);  }
-	 to { transform: scaleY(2);  }
 	}
 
 	.dotted-line-php {
-		height: 13px;
+		bottom: -8px;
+		height: 24px;
 		left: 438px;
-		top: 105px;
-	}
-
-	@keyframes dashed-php {
-	 from { transform: scaleY(1);  }
-	 to { transform: scaleY(2);  }
 	}
 
 	.dotted-line-sql {
-		height: 36px;
+		bottom: -54px;
+		height: 72px;
 		left: 526px;
-		top: 104px;
-	}
-
-	@keyframes dashed-sql {
-	 from { transform: scaleY(.6);  }
-	 to { transform: scaleY(2);  }
 	}
 
 	.dotted-line-wp {
-		height: 60px;
+		bottom: -93px;
+		height: 120px;
 		left: 603px;
-		top: 95px;
-	}
-
-	@keyframes dashed-wp {
-	 from { transform: scaleY(.5);  }
-	 to { transform: scaleY(2);  }
 	}
 
 	.wrapper-skill-js {
+		bottom: -93px;
 		left: 79px;
 		line-height: .5;
-		top: 124px;
 	}
 
 	@keyframes to-down-js {
-	 to { transform: translateY(59px); }
+	 from { transform: translateY(-59px); }
 	}
 
 	.wrapper-skill-git {
+		bottom: -33px;
 		left: 192px;
-		top: 124px;
 	}
 
 	.wrapper-skill-html {
+		bottom: -66px;
 		left: 220px;
-		top: 124px;
 	}
 
 	@keyframes to-down-html {
-		to { transform: translateY(43px); }
+		from { transform: translateY(-43px); }
 	}
 
 	.wrapper-skill-css {
+		bottom: -99px;
 		left: 287px;
-		top: 124px;
 	}
 
 	@keyframes to-down-css {
-	 to { transform: translateY(77px); }
+	 from { transform: translateY(-77px); }
 	}
 
 	.wrapper-skill-figma {
+		bottom: -133px;
 		left: 318px;
-		top: 124px;
 	}
 
 	@keyframes to-down-figma {
-	 to { transform: translateY(110px); }
+	 from { transform: translateY(-110px); }
 	}
 
 	.wrapper-skill-php {
+		bottom: -44px;
 		left: 418px;
 		line-height: .5;
-		top: 124px;
 	}
 
 	@keyframes to-down-php {
-	 to { transform: translateY(10px); }
+	 from { transform: translateY(-10px); }
 	}
 
 	.wrapper-skill-sql {
+		bottom: -88px;
 		left: 483px;
 		line-height: .5;
-		top: 124px;
 	}
 
 	@keyframes to-down-sql {
-	 to { transform: translateY(54px); }
+	 from { transform: translateY(-54px); }
 	}
 
 	.wrapper-skill-wp {
+		bottom: -133px;
 		left: 553px;
 		line-height: .5;
-		top: 124px;
 	}
 
 	@keyframes to-down-wp {
-	 to { transform: translateY(97px); }
+	 from { transform: translateY(-97px); }
 	}
 
 	.skill-js,

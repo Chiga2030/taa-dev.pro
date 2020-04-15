@@ -245,7 +245,6 @@ body {
 
 /* block - my-skills - 1440px */
 
-
 .my-skills__title-my-skills {
 	margin: auto;
 }
@@ -359,198 +358,198 @@ body {
 
 .dotted-line-js {
   animation: dashed-js 2s ease-in-out 1 forwards;
-	height: 19px;
+  bottom: -75px;
+	height: 73px;
 	left: 171px;
-	top: 166px;
 }
 
 @keyframes dashed-js {
- from { transform: scaleY(.1);  }
- to { transform: scaleY(3.8);  }
+ from { transform: scaleY(0);  }
+ to { transform: scaleY(1);  }
 }
 
 .dotted-line-git {
   animation: dashed-git 2s ease-in-out 1 forwards;
-	height: 19px;
+  bottom: -8px;
+	height: 73px;
 	left: 280px;
-	top: 99px;
 }
 
 @keyframes dashed-git {
- from { transform: scaleY(3.5);  }
- to { transform: scaleY(3.8);  }
+ from { transform: scaleY(.8);  }
+ to { transform: scaleY(1);  }
 }
 
 .dotted-line-html {
   animation: dashed-html 2s ease-in-out 1 forwards;
-	height: 29px;
+  bottom: -60px;
+	height: 113px;
 	left: 335px;
-	top: 111px;
 }
 
 @keyframes dashed-html {
- from { transform: scaleY(2.1);  }
- to { transform: scaleY(3.8);  }
+ from { transform: scaleY(.5);  }
+ to { transform: scaleY(1);  }
 }
 
 .dotted-line-css {
   animation: dashed-css 2s ease-in-out 1 forwards;
-	height: 38px;
+  bottom: -105px;
+	height: 145px;
 	left: 412px;
-	top: 124px;
 }
 
 @keyframes dashed-css {
- from { transform: scaleY(1.2);  }
- to { transform: scaleY(3.8);  }
+ from { transform: scaleY(.3);  }
+ to { transform: scaleY(1);  }
 }
 
 .dotted-line-figma {
   animation: dashed-figma 2s ease-in-out 1 forwards;
-	height: 55px;
+  bottom: -150px;
+	height: 211px;
 	left: 471px;
-	top: 104px;
 }
 
 @keyframes dashed-figma {
- from { transform: scaleY(1.2);  }
- to { transform: scaleY(3.8);  }
+ from { transform: scaleY(.3);  }
+ to { transform: scaleY(1);  }
 }
 
 .dotted-line-php {
   animation: dashed-php 2s ease-in-out 1 forwards;
-	height: 9px;
+  bottom: -15px;
+	height: 40px;
 	left: 588px;
-	top: 139px;
 }
 
 @keyframes dashed-php {
- from { transform: scaleY(3.2);  }
- to { transform: scaleY(3.8);  }
+ from { transform: scaleY(.8);  }
+ to { transform: scaleY(1);  }
 }
 
 .dotted-line-sql {
   animation: dashed-sql 2s ease-in-out 1 forwards;
-	height: 27px;
+  bottom: -75px;
+	height: 103px;
 	left: 707px;
-	top: 136px;
 }
 
 @keyframes dashed-sql {
- from { transform: scaleY(1.2);  }
- to { transform: scaleY(3.8);  }
+ from { transform: scaleY(.3);  }
+ to { transform: scaleY(1);  }
 }
 
 .dotted-line-wp {
   animation: dashed-wp 2s ease-in-out 1 forwards;
-	height: 44px;
+  bottom: -129px;
+	height: 169px;
 	left: 811px;
-	top: 124px;
 }
 
 @keyframes dashed-wp {
- from { transform: scaleY(1);  }
- to { transform: scaleY(3.8);  }
+ from { transform: scaleY(.3);  }
+ to { transform: scaleY(1);  }
 }
 
 .wrapper-skill-js {
   animation: to-down-js 2s ease-in-out 1 forwards;
+  bottom: -126px;
 	left: 95px;
 	line-height: .9;
 	position: absolute;
-	top: 170px;
 }
 
 @keyframes to-down-js {
- from { transform: translateY(0); }
- to { transform: translateY(76px); }
+ from { transform: translateY(-76px); }
+ to { transform: translateY(0); }
 }
 
 .wrapper-skill-git {
   animation: to-down-git 2s ease-in-out 1 forwards;
+  bottom: -44px;
 	left: 258px;
 	position: absolute;
-	top: 170px;
 }
 
 @keyframes to-down-git {
- from { transform: translateY(0); }
- to { transform: translateY(10px); }
+ from { transform: translateY(-10px); }
+ to { transform: translateY(0); }
 }
 
 .wrapper-skill-html {
   animation: to-down-html 2s ease-in-out 1 forwards;
+  bottom: -90px;
 	left: 297px;
 	position: absolute;
-	top: 170px;
 }
 
 @keyframes to-down-html {
- from { transform: translateY(0); }
- to { transform: translateY(54px); }
+ from { transform: translateY(-54px); }
+ to { transform: translateY(0); }
 }
 
 .wrapper-skill-css {
   animation: to-down-css 2s ease-in-out 1 forwards;
+  bottom: -134px;
 	left: 386px;
 	position: absolute;
-	top: 170px;
 }
 
 @keyframes to-down-css {
- from { transform: translateY(0); }
- to { transform: translateY(99px); }
+ from { transform: translateY(-99px); }
+ to { transform: translateY(0); }
 }
 
 .wrapper-skill-figma {
   animation: to-down-figma 2s ease-in-out 1 forwards;
+  bottom: -180px;
 	left: 428px;
 	position: absolute;
-	top: 170px;
 }
 
 @keyframes to-down-figma {
- from { transform: translateY(0); }
- to { transform: translateY(144px); }
+ from { transform: translateY(-144px); }
+ to { transform: translateY(0); }
 }
 
 .wrapper-skill-php {
   animation: to-down-php 2s ease-in-out 1 forwards;
+  bottom: -59px;
 	left: 560px;
 	line-height: .9;
 	position: absolute;
-	top: 170px;
 }
 
 @keyframes to-down-php {
- from { transform: translateY(0); }
- to { transform: translateY(9px); }
+ from { transform: translateY(-9px); }
+ to { transform: translateY(0); }
 }
 
 .wrapper-skill-sql {
   animation: to-down-sql 2s ease-in-out 1 forwards;
+  bottom: -119px;
 	left: 659px;
 	line-height: .9;
 	position: absolute;
-	top: 170px;
 }
 
 @keyframes to-down-sql {
- from { transform: translateY(0); }
- to { transform: translateY(69px); }
+ from { transform: translateY(-69px); }
+ to { transform: translateY(0); }
 }
 
 .wrapper-skill-wp {
   animation: to-down-wp 2s ease-in-out 1 forwards;
+  bottom: -179px;
 	left: 737px;
 	line-height: .9;
 	position: absolute;
-	top: 170px;
 }
 
 @keyframes to-down-wp {
- from { transform: translateY(0); }
- to { transform: translateY(130px); }
+ from { transform: translateY(-130px); }
+ to { transform: translateY(0); }
 }
 
 .skill-js,

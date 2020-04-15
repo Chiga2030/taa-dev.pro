@@ -1,75 +1,378 @@
 @media (max-width: 650px) {
 
+	/* block last-projects - 650px */
+
+	.title-last-projects {
+		font-size: 1.3em;
+	}
+
+	.title-last-projects::before,
+	.title-last-projects::after {
+		height: 28px;
+		width: 24px;
+	}
+
+	.title-last-projects::before {
+		transform: translate(-32px, -1px);
+	}
+
+	.title-last-projects::after {
+		transform: translate(4px, -1px);
+	}
+
 	/* block my-skills - 650px */
 
+	.title-my-skills {
+		font-size: 1em;
+	}
+
+	.title-my-skills::before,
+	.title-my-skills::after {
+		height: 22px;
+		width: 24px;
+	}
+
+	.title-my-skills::before {
+		transform: translate(-32px, -1px);
+	}
+
+	.title-my-skills::after {
+		transform: translate(4px, -1px);
+	}
+
 	.wrapper-my-skills {
-		background-position: left bottom;
-		background-size: 90%;
+		background-position: left 18px;
+		background-size: 584px;
+		height: 110px;
 	}
 
 		.animation-asteroids {
-	  background:  url(./img/animation-asteroids-768px.png) left;
-	  bottom: 1px;
-	  height: 70px;
+	  background: url(./img/animation-asteroids-650px.png) left;
+	  height: 40px;
 	  left: calc(356px - 90px);
 	}
 
 	.dotted-line-js {
-	  bottom: 69px;
-		height: 2px;
-		/*left: 125px;*/
-	  left: calc(125px - 28px);
-
-		top: unset;
+	  bottom: 48px;
+		height: 18px;
+	  left: 96px;
 	}
 
 	.dotted-line-git {
-	  bottom: 17px;
-		height: 26px;
-		left: 206px;
-		top: unset;
+	  bottom: 9px;
+		height: 88px;
+		left: 157px;
 	}
 
 	.dotted-line-html {
-	  bottom: 26px;
-		height: 19px;
-		left: 246px;
-		top: unset;
+	  bottom: 16px;
+		height: 61px;
+		left: 188px;
 	}
 
 	.dotted-line-css {
-	  bottom: 26px;
-		height: 14px;
-		left: 304px;
-		top: unset;
+	  bottom: 15px;
+		height: 46px;
+		left: 231px;
 	}
 
 	.dotted-line-figma {
-	  bottom: 20px;
-		height: 25px;
-		left: 348px;
-		top: unset;
+	  bottom: 11px;
+		height: 86px;
+		left: 265px;
 	}
 
 	.dotted-line-php {
-	  bottom: 45px;
-		height: 15px;
-		left: 434px;
-		top: unset;
+	  bottom: 31px;
+		height: 54px;
+		left: 330px;
 	}
 
 	.dotted-line-sql {
-	  bottom: 41px;
-		height: 7px;
-		left: 519px;
-		top: unset;
+	  bottom: 28px;
+		height: 22px;
+		left: 395px;
 	}
 
 	.dotted-line-wp {
-	  bottom: 33px;
-		height: 18px;
-		left: 599px;
-		top: unset;
+	  bottom: 22px;
+		height: 62px;
+		left: 455px;
+	}
+
+	.wrapper-skill-js {
+		bottom: 67px;
+		left: 68px;
+	}
+
+	.wrapper-skill-git {
+		bottom: 98px;
+		left: 148px;
+	}
+
+	.wrapper-skill-html {
+		bottom: 78px;
+		left: 174px;
+	}
+
+	.wrapper-skill-css {
+	  bottom: 62px;
+		left: 221px;
+	}
+
+	.wrapper-skill-figma {
+	  bottom: 99px;
+		left: 250px;
+	}
+
+	.wrapper-skill-php {
+	  bottom: 86px;
+		left: 319px;
+	}
+
+	.wrapper-skill-sql {
+	  bottom: 51px;
+		left: 376px;
+	}
+
+	.wrapper-skill-wp {
+	  bottom: 86px;
+		left: 427px;
+	}
+
+	.skill-js,
+	.skill-git,
+	.skill-html,
+	.skill-css,
+	.skill-figma,
+	.skill-php,
+	.skill-sql,
+	.skill-wp {
+		font-size: 0.6em;
+	}
+
+	.skill-js_basic,
+	.skill-php_basic,
+	.skill-sql_basic,
+	.skill-wp_basic {
+		font-size: 0.4em;
+	}
+
+	/* block advantages - 650px */
+
+	.title-advantages {
+		color: #000;
+		font-size: 1.2em;
+	}
+
+	.title-advantages::before,
+	.title-advantages::after {
+		height: 26px;
+		width: 24px;
+	}
+
+	.title-advantages::before {
+		transform: translate(-32px, -1px);
+	}
+
+	.title-advantages::after {
+		transform: translate(4px, -1px);
+	}
+
+}
+
+@media (max-width: 640px) {
+
+	/* block advantages - 640px */
+
+	.advantage__subtitle {
+		font-size: 1em;
+	}
+
+	.advantage__image_mobile {
+		height: 32px;
+		width: 29px;
+	}
+
+	.advantage__image_semantics {
+		height: 34px;
+		width: 34px;
+	}
+
+	.advantage__image_validity {
+		height: 34px;
+		width: 34px;
+	}
+
+	.advantage__image_pixel-perfect {
+		height: 35px;
+		top: 20px;
+		width: 34px;
+	}
+
+	.advantage__image_optimization {
+		height: 34px;
+		width: 34px;
+	}
+
+	.advantage__image_bem {
+		height: 34px;
+		width: 34px;
+	}
+
+}
+
+@media (max-width: 600px) {
+
+	/* block advantages - 600px */
+
+	.wrapper-advantages {
+		padding-bottom: 4em;
+	}
+
+	.advantages__advantage:nth-child(4) {
+		grid-row: 45/54;
+	}
+
+	.advantage__image_pixel-perfect {
+		height: 35px;
+		top: 28px;
+		width: 34px;
+	}
+
+}
+
+@media (max-width: 592px) {
+
+	/* block advantages - 592px */
+
+	.title-advantages {
+    padding-bottom: 0.4em;
+	}
+
+	.wrapper-advantages {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.advantage {
+		max-width: 324px;
+		margin: auto;
+	}
+
+	.advantages__advantage:nth-child(1) {
+		margin-bottom: 8px;
+		order: 1;
+	}
+
+	.advantages__advantage:nth-child(2) {
+		margin-bottom: 8px;
+		order: 2;
+	}
+
+	.advantages__advantage:nth-child(3) {
+		margin-bottom: 8px;
+		order: 3;
+	}
+
+	.advantages__advantage:nth-child(4) {
+		margin-bottom: 8px;
+		order: 4;
+	}
+
+	.advantages__advantage:nth-child(5) {
+		margin-bottom: 8px;
+		order: 5;
+	}
+
+	.advantages__advantage:nth-child(6) {
+		margin-bottom: 0;
+		order: 6;
+	}
+
+}
+
+@media (max-width: 494px) {
+
+	/* block my-skills - 494px */
+
+	.my-skills {
+		display: none;
+	}
+
+}
+
+@media (max-width: 460px) {
+
+	/* block about - 460px */
+
+	.contacts-subtitle-description {
+		font-size: 0.8em;
+		letter-spacing: .08em;
+		max-width: 188px;
+	}
+
+	@keyframes contacts-subtitle-to-right {
+		to { transform: translateX(79px); }
+	}
+
+	.contacts__about-me:nth-child(4) {
+		font-size: 0.7em;
+		max-width: 174px;
+		top: 52px;
+	}
+
+	.about-me_forced-transfer {
+		padding-right: 3em;
+	}
+
+	.contacts__about-me:nth-child(5) {
+		font-size: 0.7em;
+		max-width: 206px;
+		text-align: right;
+		top: 184px;
+	}
+
+	.phone {
+		font-size: 1.1em;
+	}
+
+	.email {
+		font-size: 0.8em;
+	}
+
+	.networks {
+		max-width: 206px;
+	}
+
+	.networks__item {
+		height: 28px;
+		margin: auto 0.8em;
+		width: 28px;
+	}
+
+}
+
+@media (max-width: 400px) {
+
+	/* block advantages - 400px */
+
+	.title-advantages {
+		font-size: 1em;
+	}
+
+	.title-advantages::before,
+	.title-advantages::after {
+		height: 21px;
+		width: 20px;
+	}
+
+	.title-advantages::before {
+		transform: translate(-26px, -1px);
+	}
+
+	.title-advantages::after {
+		transform: translate(4px, -1px);
 	}
 
 }
