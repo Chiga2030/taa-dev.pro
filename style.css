@@ -456,10 +456,11 @@ body {
 
 .wrapper-skill-js {
   animation: to-down-js 2s ease-in-out 1 forwards;
+  bottom: -50px; 			/*test prop*/
 	left: 95px;
 	line-height: .9;
 	position: absolute;
-	top: 170px;
+	/*top: 170px;*/
 }
 
 @keyframes to-down-js {

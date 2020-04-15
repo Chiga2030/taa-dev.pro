@@ -1,5 +1,5 @@
 @media (max-width: 768px) {
-	
+
 	/* сетка гридов: */
 
 	.grid-wrapper {
@@ -342,7 +342,7 @@
 		bottom: 87px;
 		left: 79px;
 		line-height: .5;
-		top: unset;
+		/*top: unset;*/
 	}
 
 	@keyframes to-down-js {
