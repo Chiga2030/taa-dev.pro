@@ -710,10 +710,8 @@ body {
 	}
 
 	.grid-wrapper-right-top {
-		grid-template-columns: auto;
-		grid-template-rows: 474px auto;
+		grid-template-rows: minmax(320px, 540px)  minmax(260px, auto);
 	}
-
 
 	/* block - about  1024px */
 
