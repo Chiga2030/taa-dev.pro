@@ -75,8 +75,9 @@ body {
 
 .avatar {
 	background: url(./img/avatar.jpg) center;
+	background-size: cover;
 	border-radius: 50%;
-	height: 164px;
+	height: 163px;
 	width: 164px;
 }
 
@@ -155,6 +156,10 @@ body {
 	background: url(./img/social-networks/twitter.png) no-repeat;
 }
 
+.networks__item {
+	background-size: cover;
+}
+
 /* block - last projects - 1440px */
 
 .last-projects__title-last-projects {
@@ -210,12 +215,23 @@ body {
 
 .project__preview {
 	height: 234px;
-	width: 284px;
 	margin: 0 auto .1em;
+	width: 284px;
 }
 
 .project__preview_first-project {
 	background: url(./img/projects-cases/axion/preview/preview.png) no-repeat center;
+	background-size: cover;
+}
+
+.project__preview_second-project {
+	background: url(./img/projects-cases/taa-dev.pro/preview/preview.png) no-repeat center;
+	background-size: cover;
+}
+
+.project__preview_third-project {
+	background: url(./img/projects-cases/axion/preview/preview.png) no-repeat center;
+	background-size: cover;
 }
 
 .project__description_subtitle {
@@ -277,6 +293,7 @@ body {
 
 .wrapper-my-skills {
 	background: url(./img/background-skills.png) no-repeat left;
+	background-size: cover;
 	height: 164px;
 	max-width: 1040px;
 	position: relative;
@@ -285,6 +302,7 @@ body {
 .animation-asteroids {
   animation: circul-asteroids 10s steps(1) reverse infinite forwards;
   background:  url(./img/animation-asteroids.png) left;
+  background-size: cover;
   height: 164px;
   left: 498px;
   position: absolute;
@@ -682,6 +700,10 @@ body {
 	background: url(./img/advantages/bem.png) no-repeat center;
 }
 
+.advantage__image {
+	background-size: contain;
+}
+
 @media (max-width: 1024px) {
 
 	/* сетка гридов: */
@@ -812,8 +834,10 @@ body {
 		display: none;
 	}
 
-	.project__preview_first-project {
-		background: url(./img/projects-cases/axion/preview/preview-medium.png) no-repeat 0 10px;
+	.project__preview_first-project,
+	.project__preview_second-project,
+	.project__preview_third-project {
+		background-position: 0 10px;
 	}
 
 	.project__description_subtitle {
@@ -842,6 +866,7 @@ body {
 
 	.animation-asteroids {
 	  background: url(./img/animation-asteroids-1024px.png) left;
+	  background-size: cover;
 	  height: 122px;
 	  left: 362px;
 	}
@@ -1274,12 +1299,14 @@ body {
 
 	.wrapper-my-skills {
 		background: url(./img/background-skills-768px.png) no-repeat left bottom;
+		background-size: 768px 137px;
 		height: 184px;
 		max-width: 768px;
 	}
 
 	.animation-asteroids {
 	  background:  url(./img/animation-asteroids-768px.png) left;
+	  background-size: cover;
 	  bottom: 1px;
 	  height: 70px;
 	  left: 356px;
@@ -1744,8 +1771,9 @@ body {
 		height: 110px;
 	}
 
-		.animation-asteroids {
+	.animation-asteroids {
 	  background: url(./img/animation-asteroids-650px.png) left;
+	  background-size: cover;
 	  height: 40px;
 	  left: calc(356px - 90px);
 	}
@@ -2239,8 +2267,10 @@ body {
 		margin: 0 auto .3em;
 	}
 
-	.project__preview_first-project {
-		background: url(./img/projects-cases/axion/preview/preview-375px.png) no-repeat  -13px 11px;
+	.project__preview_first-project,
+	.project__preview_second-project,
+	.project__preview_third-project {
+		background-position: -10px 11px;
 	}
 
 	.project__description_subtitle {
