@@ -49,7 +49,7 @@ body {
 }
 
 .contacts__contacts-subtitle {
-	margin-bottom: 0.2em;
+	margin-bottom: .2em;
 }
 
 .contacts-subtitle {
@@ -1266,11 +1266,11 @@ body {
 	/* block - last projects - 768px */
 
 	.last-projects {
-		margin-bottom: 0.9em;
+		margin-bottom: .9em;
 	}
 
 	.last-projects__title-last-projects {
-		margin: 1.4em auto 0.15em; 
+		margin: 1.4em auto .15em; 
 	}
 
 	.projects {
@@ -1858,14 +1858,14 @@ body {
 	.skill-php,
 	.skill-sql,
 	.skill-wp {
-		font-size: 0.6em;
+		font-size: .6em;
 	}
 
 	.skill-js_basic,
 	.skill-php_basic,
 	.skill-sql_basic,
 	.skill-wp_basic {
-		font-size: 0.4em;
+		font-size: .4em;
 	}
 
 	/* block advantages - 650px */
@@ -1957,7 +1957,7 @@ body {
 	/* block advantages - 592px */
 
 	.title-advantages {
-    padding-bottom: 0.4em;
+    padding-bottom: .4em;
 	}
 
 	.wrapper-advantages {
@@ -2017,7 +2017,7 @@ body {
 	/* block about - 460px */
 
 	.contacts-subtitle-description {
-		font-size: 0.8em;
+		font-size: .8em;
 		letter-spacing: .08em;
 		max-width: 188px;
 	}
@@ -2027,7 +2027,7 @@ body {
 	}
 
 	.contacts__about-me:nth-child(4) {
-		font-size: 0.7em;
+		font-size: .7em;
 		max-width: 174px;
 		top: 52px;
 	}
@@ -2037,7 +2037,7 @@ body {
 	}
 
 	.contacts__about-me:nth-child(5) {
-		font-size: 0.7em;
+		font-size: .7em;
 		max-width: 206px;
 		text-align: right;
 		top: 184px;
@@ -2048,7 +2048,7 @@ body {
 	}
 
 	.email {
-		font-size: 0.8em;
+		font-size: .8em;
 	}
 
 	.networks {
@@ -2057,7 +2057,7 @@ body {
 
 	.networks__item {
 		height: 28px;
-		margin: auto 0.8em;
+		margin: auto .8em;
 		width: 28px;
 	}
 
@@ -2355,7 +2355,7 @@ body {
 	/* block adventages - 320px */
 
 	.title-advantages {
-		font-size: 0.9em;
+		font-size: .9em;
 	}
 
 	.title-advantages::before,
