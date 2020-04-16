@@ -17,7 +17,7 @@ body {
 .grid-wrapper-right-top {
 	display: grid;
 	grid-template-columns: auto;
-	grid-template-rows: 420px auto;
+	grid-template-rows: minmax(420px, auto)  minmax(420px, auto);
 }
 
 /* about block 1440px */
@@ -75,6 +75,7 @@ body {
 
 .avatar {
 	background: url(./img/avatar.jpg) center;
+	background-size: cover;
 	border-radius: 50%;
 	height: 164px;
 	width: 164px;
@@ -155,6 +156,10 @@ body {
 	background: url(./img/social-networks/twitter.png) no-repeat;
 }
 
+.networks__item {
+	background-size: cover;
+}
+
 /* block - last projects - 1440px */
 
 .last-projects__title-last-projects {
@@ -187,7 +192,7 @@ body {
 }
 
 .last-projects__projects{
-	margin: auto;
+	margin: 0 auto 2em;
 }
 
 .projects {
@@ -210,12 +215,23 @@ body {
 
 .project__preview {
 	height: 234px;
-	width: 284px;
 	margin: 0 auto .1em;
+	width: 284px;
 }
 
 .project__preview_first-project {
 	background: url(./img/projects-cases/axion/preview/preview.png) no-repeat center;
+	background-size: cover;
+}
+
+.project__preview_second-project {
+	background: url(./img/projects-cases/taa-dev.pro/preview/preview.png) no-repeat center;
+	background-size: cover;
+}
+
+.project__preview_third-project {
+	background: url(./img/projects-cases/axion/preview/preview.png) no-repeat center;
+	background-size: cover;
 }
 
 .project__description_subtitle {
@@ -228,19 +244,15 @@ body {
 	margin: 0 auto .4em;
 }
 
-.link-to-preview {
-	color: #2B111E;
-	display: inline-block;
-	font: normal 400 .76em montserrat;
+.project__wrapper-links {
+	display: flex;
+	justify-content: space-between;
 }
 
-.link-to-preview::after {
-	background: url(./img/arrows/arrow-short.png) no-repeat left;
-	content: '';
-	height: 17px;
-	position: absolute;
-	transform: translateX(12px);
-	width: 19px;
+.link-to-preview {
+	color: #000;
+	display: inline-block;
+	font: normal 400 .76em montserrat;
 }
 
 /* block - my-skills - 1440px */
@@ -277,6 +289,7 @@ body {
 
 .wrapper-my-skills {
 	background: url(./img/background-skills.png) no-repeat left;
+	background-size: cover;
 	height: 164px;
 	max-width: 1040px;
 	position: relative;
@@ -682,6 +695,10 @@ body {
 	background: url(./img/advantages/bem.png) no-repeat center;
 }
 
+.advantage__image {
+	background-size: contain;
+}
+
 @media (max-width: 1024px) {
 
 	/* сетка гридов: */
@@ -694,7 +711,7 @@ body {
 
 	.grid-wrapper-right-top {
 		grid-template-columns: auto;
-		grid-template-rows: 470px auto;
+		grid-template-rows: 474px auto;
 	}
 
 
@@ -812,8 +829,10 @@ body {
 		display: none;
 	}
 
-	.project__preview_first-project {
-		background: url(./img/projects-cases/axion/preview/preview-medium.png) no-repeat 0 10px;
+	.project__preview_first-project,
+	.project__preview_second-project,
+	.project__preview_third-project {
+		background-position: 0 10px;
 	}
 
 	.project__description_subtitle {
@@ -1264,16 +1283,11 @@ body {
 		margin: 0 auto 1em;
 	}
 
-	.link-to-preview::after {
-		background: url(./img/arrows/arrow-short-768px.png) no-repeat left;
-		transform: translateX(8px);
-		width: 24px;
-	}
-
 	/* block - my-skills - 768px */
 
 	.wrapper-my-skills {
 		background: url(./img/background-skills-768px.png) no-repeat left bottom;
+		background-size: 768px 126px;
 		height: 184px;
 		max-width: 768px;
 	}
@@ -1744,7 +1758,7 @@ body {
 		height: 110px;
 	}
 
-		.animation-asteroids {
+	.animation-asteroids {
 	  background: url(./img/animation-asteroids-650px.png) left;
 	  height: 40px;
 	  left: calc(356px - 90px);
@@ -2239,8 +2253,10 @@ body {
 		margin: 0 auto .3em;
 	}
 
-	.project__preview_first-project {
-		background: url(./img/projects-cases/axion/preview/preview-375px.png) no-repeat  -13px 11px;
+	.project__preview_first-project,
+	.project__preview_second-project,
+	.project__preview_third-project {
+		background-position: -10px 11px;
 	}
 
 	.project__description_subtitle {
@@ -2359,4 +2375,3 @@ body {
 	}
 
 }
-
