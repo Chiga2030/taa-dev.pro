@@ -710,7 +710,7 @@ body {
 	}
 
 	.grid-wrapper-right-top {
-		grid-template-rows: minmax(320px, 540px)  minmax(260px, auto);
+		grid-template-rows: minmax(320px, auto)  minmax(200px, auto);
 	}
 
 	/* block - about  1024px */
@@ -854,6 +854,7 @@ body {
 	.wrapper-my-skills {
 		background-size: cover;
 		height: 122px;
+		margin-bottom: 9em;
 		max-width: 774px;
 	}
 
@@ -1287,6 +1288,7 @@ body {
 		background: url(./img/background-skills-768px.png) no-repeat left bottom;
 		background-size: 768px 126px;
 		height: 184px;
+		margin-bottom: 1px;
 		max-width: 768px;
 	}
 
