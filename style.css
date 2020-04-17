@@ -255,6 +255,15 @@ body {
 	font: normal 400 .76em montserrat;
 }
 
+.circul {
+	align-self: center;
+	background: #BE5B4A;
+	border-radius: 50px;
+	display: inline-block;
+	height: 6px;
+	width: 6px;
+}
+
 /* block - my-skills - 1440px */
 
 .my-skills__title-my-skills {
