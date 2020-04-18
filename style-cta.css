@@ -1,0 +1,74 @@
+.cta-contacts {
+	background: url(./img/keyboard.jpg) no-repeat top left;
+	background-size: 511px;
+	height: 570px;
+}
+
+.cta-contacts__block-wrapper {
+	margin-left: 511px;
+	max-width: 679px;
+}
+
+.cta-contacts__wrapper-title {
+	padding-top: 54px;
+	text-align: right;
+}
+
+.cta-contacts__title {
+	font-size: 2em;
+	letter-spacing: 0.08em;
+	margin-bottom: 0.6em;
+}
+
+.cta-contacts__description {
+	font: normal 700 1.5em montserrat;
+	letter-spacing: 0.08em;
+	margin-bottom: 4.1em;
+}
+
+.cta-contacts__wrapper-name {
+	display: flex;
+	justify-content: space-between;
+	max-width: 700px;
+	margin-bottom: 5.3em;
+}
+
+.last-name,
+.first-name,
+.middle-name {
+	font-size: 1em;
+	letter-spacing: 0.08em;
+}
+
+.cta-contacts__wrapper-items {
+	background: url(./img/cta-ellipse.png) no-repeat;
+	background-size: 80px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.cta-contacts__wrapper-phone {
+	font-size: 1.5em;
+	letter-spacing: 0.08em;
+}
+
+.cta-contacts__phone {
+	display: block;
+	margin-bottom: 0.4em;
+}
+
+.cta-contacts__whatsapp {
+	display: block;
+	margin-bottom: 0.4em;
+}
+
+.cta-contacts__telegram {
+	display: block;
+}
+
+.cta-contacts__email {
+	background: url(./img/cta-rectangle.png) no-repeat;
+	background-size: 40px;
+	font-size: 1.5em;
+	letter-spacing: 0.08em;
+}
