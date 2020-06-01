@@ -1,0 +1,52 @@
+html,
+body {
+	font: normal 400 1em montserrat;
+	margin: auto;
+}
+
+/* сетка гридов: */
+
+.grid-wrapper {
+	display: grid;
+	grid-template-columns: minmax(350px, 400px) auto;
+	grid-template-rows: minmax(830px, auto) auto;
+	margin: auto;
+	max-width: 1440px;
+}
+
+.grid-wrapper-right-top {
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: minmax(420px, auto)  minmax(420px, auto);
+}
+
+@media (max-width: 1024px) {
+
+/* сетка гридов - 1024px */
+
+	.grid-wrapper {
+		grid-template-columns: minmax(250px, 250px) auto;
+		grid-template-rows: minmax(790px, auto) auto;
+		max-width: 1024px;
+	}
+
+	.grid-wrapper-right-top {
+		grid-template-rows: minmax(320px, auto)  minmax(200px, auto);
+	}
+
+}
+
+@media (max-width: 768px) {
+
+	/* сетка гридов: */
+
+	.grid-wrapper {
+		display: block;
+		max-width: 768px;
+	}
+
+	.grid-wrapper-right-top {
+		display: block;
+	}
+
+}

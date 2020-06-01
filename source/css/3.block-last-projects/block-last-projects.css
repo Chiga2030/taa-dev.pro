@@ -1,0 +1,288 @@
+/* block - last projects - 1440px */
+
+.last-projects__title-last-projects {
+	margin-bottom: .4em; 
+}
+
+.title-last-projects {
+	color: #2B111E;
+	font: normal 700 1.55em montserrat;
+	letter-spacing: .055em;
+	padding-top: .4em;
+	text-align: center;
+}
+
+.title-last-projects::before,
+.title-last-projects::after {
+	background: url(./img/line.png) no-repeat center;
+	content: '';
+	height: 34px;
+	position: absolute;
+	width: 36px;
+}
+
+.title-last-projects::before {
+	transform: translate(-46px, -1px);
+}
+
+.title-last-projects::after {
+	transform: translate(9px, -1px);
+}
+
+.last-projects__projects{
+	margin: 0 auto 2em;
+}
+
+.projects {
+	display: flex;
+	justify-content: space-between;
+	max-width: 956px;
+	padding: 0 1em;
+}
+
+.project {
+	height: 359px;
+	max-width: 284px;
+}
+
+.name-of-project {
+	font-size: 1em;
+	letter-spacing: .08em;
+	padding-top: .1em;
+	text-align: center;
+}
+
+.project__preview {
+	height: 234px;
+	margin: 0 auto .1em;
+	width: 284px;
+}
+
+.project__preview_first-project {
+	background: url(./img/projects-cases/axion/preview/preview.png) no-repeat center;
+	background-size: cover;
+}
+
+.project__preview_second-project {
+	background: url(./img/projects-cases/taa-dev.pro/preview/preview.png) no-repeat center;
+	background-size: cover;
+}
+
+.project__preview_third-project {
+	background: url(./img/projects-cases/axion/preview/preview.png) no-repeat center;
+	background-size: cover;
+}
+
+.project__description_subtitle {
+	font: italic 700 .76em montserrat;
+	margin: 0 auto .6em;
+}
+
+.project__description_lead {
+	font: normal 400 .75em montserrat;
+	margin: 0 auto .4em;
+}
+
+.project__wrapper-links {
+	display: flex;
+	justify-content: space-between;
+}
+
+.link-to-preview {
+	color: #000;
+	display: inline-block;
+	font: normal 400 .76em montserrat;
+}
+
+.circul {
+	align-self: center;
+	background: #BE5B4A;
+	border-radius: 50px;
+	display: inline-block;
+	height: 6px;
+	width: 6px;
+}
+
+@media (max-width: 1024px) {
+
+	/* block - last projects - 1024px */
+
+	.last-projects__title-last-projects {
+		margin: .75em auto .25em; 
+	}
+
+	.title-last-projects {
+		padding-top: 0;
+	}
+
+	.projects {		
+		max-width: 726px;
+	}
+
+	.project {
+		max-width: 350px;
+	}
+
+	.project__preview {
+		height: 289px;
+		width: 350px;
+		margin-bottom: .9em;
+	}
+
+	.project:last-child {
+		display: none;
+	}
+
+	.project__preview_first-project,
+	.project__preview_second-project,
+	.project__preview_third-project {
+		background-position: 0 10px;
+	}
+
+	.project__description_subtitle {
+		letter-spacing: .04em;
+	}
+
+	.project__description_lead {
+		font-size: .8em;
+	}
+
+	.link-to-preview {
+		font-size: .8em;
+	}
+
+}
+
+@media (max-width: 768px) {
+
+	/* block - last projects - 768px */
+
+	.last-projects {
+		margin-bottom: .9em;
+	}
+
+	.last-projects__title-last-projects {
+		margin: 1.4em auto .15em; 
+	}
+
+	.projects {
+		flex-wrap: wrap;
+	}
+
+	.project {
+		margin: 0 auto 1em;
+	}
+
+}
+
+@media (max-width: 650px) {
+
+	/* block last-projects - 650px */
+
+	.title-last-projects {
+		font-size: 1.3em;
+	}
+
+	.title-last-projects::before,
+	.title-last-projects::after {
+		height: 28px;
+		width: 24px;
+	}
+
+	.title-last-projects::before {
+		transform: translate(-32px, -1px);
+	}
+
+	.title-last-projects::after {
+		transform: translate(4px, -1px);
+	}
+
+}
+
+@media (max-width: 375px) {
+
+	/* block - last projects - 375px */
+
+	.last-projects {
+		position: relative;
+		z-index: 10;
+	}
+
+	.last-projects__title-last-projects{
+		margin-bottom: 1.9em;
+			
+	}
+
+	.title-last-projects {
+		font-size: 1em;
+		letter-spacing: .08em;
+		padding-top: 5.3em;
+	}
+
+	.title-last-projects::before,
+	.title-last-projects::after {
+		height: 20px;
+		width: 26px;
+	}
+
+	.title-last-projects::before {
+		transform: translate(-41px, -1px);
+	}
+
+	.title-last-projects::after {
+		transform: translate(15px, -1px);
+	}
+
+	.projects {
+		padding: 0;
+	}
+
+	.project {
+		max-width: 375px;
+		margin-bottom: 1.6em;
+
+	}
+
+	.name-of-project {
+		font-size: .8em;
+	}
+
+	.project__preview {
+		height: 321px;
+		max-width: 375px;
+		margin: 0 auto .3em;
+	}
+
+	.project__preview_first-project,
+	.project__preview_second-project,
+	.project__preview_third-project {
+		background-position: -10px 11px;
+	}
+
+	.project__description_subtitle {
+		padding: 0 1em;
+	}
+
+	.project__description_lead {
+		padding: 0 1em;
+	}
+
+	.link-to-preview {
+		padding: 0 1em;
+	}
+
+}
+
+@media (max-width: 354px) {
+
+	/* block - last projects - 320px */
+
+	.project {
+		max-width: 320px;
+	}
+
+	.project__preview {
+		max-width: 320px;
+	}
+
+}
