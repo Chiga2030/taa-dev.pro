@@ -1,2 +1,6 @@
-/sourse
-/pixel-perfect
+.env
+.DS_Store
+.cache/
+dist/
+node_modules/
+build/
