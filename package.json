@@ -8,7 +8,8 @@
     "start": "gulp dev",
     "build": "gulp prod",
     "createFolder": "mkdir build",
-    "deleteFolder": "rm -R build"
+    "deleteFolder": "rm -R build",
+    "upload": "./upload.sh"
   },
   "repository": {
     "type": "git",
