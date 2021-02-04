@@ -1,0 +1,39 @@
+@font-face {
+    font-family: lobster;
+    src: url('./lobster-400-regular.woff2') format('woff2'),
+    url('./montserrat-400-regular.woff') format('woff'),
+    url('./montserrat-400-regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url('./montserrat-400-normal.woff2') format('woff2'),
+    url('./montserrat-400-normal.woff') format('woff'),
+    url('./montserrat-400-normal.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url('./montserrat-700-normal.woff2') format('woff2'),
+    url('./montserrat-700-normal.woff') format('woff'),
+    url('./montserrat-700-normal.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* info: */
+/* font-weight: 
+    thin 100 | 
+    extra light 200 | 
+    light 300 | 
+    normal (regular) 400 | 
+    medium 500 | 
+    semi bold 600 | 
+    bold 700 | 
+    extra bold 800 | 
+    black 900; */
+/* font-style: normal | italic | oblique | inherit */
