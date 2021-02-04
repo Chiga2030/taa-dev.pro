@@ -8,7 +8,8 @@
     "start": "gulp dev",
     "build": "gulp prod",
     "createFolder": "mkdir build",
-    "deleteFolder": "rm -R build"
+    "deleteFolder": "rm -R build",
+    "upload": "./upload.sh"
   },
   "repository": {
     "type": "git",
@@ -30,10 +31,11 @@
     "gulp-concat": "^2.6.1",
     "gulp-cssnano": "^2.1.3",
     "gulp-env": "^0.4.0",
+    "gulp-file-include": "^2.2.2",
     "gulp-if": "^3.0.0",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
-    "lodash.template": ">=4.5.0",
-    "js-yaml": ">=3.13.1"
+    "js-yaml": ">=3.13.1",
+    "lodash.template": ">=4.5.0"
   }
 }

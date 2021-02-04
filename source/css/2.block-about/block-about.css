@@ -113,8 +113,10 @@
 }
 
 .networks__item {
+	border: none;
 	display: inline-block;
 	height: 38px;
+	outline: none;
 	width: 38px;
 }
 
