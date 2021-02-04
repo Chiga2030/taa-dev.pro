@@ -3,6 +3,7 @@ const path = {
 		html: './build/',
 		style: 'build/',
 		script: 'build/js/',
+    img: 'build/img/',
 	},
 	src: {
 		html: {
@@ -11,6 +12,7 @@ const path = {
 		},
 		style: 'source/**/*.css',
 		script: 'source/**/*.js',
+    img: 'source/img/**/*',
 	}
 };
 
@@ -25,6 +27,7 @@ const cssnano = require('gulp-cssnano');	//для минификации css-ф�
 const sourcemaps = require('gulp-sourcemaps');
 const browserSync = require('browser-sync').create();
 const fileinclude = require('gulp-file-include');	//для работы с html
+const imagemin = require('gulp-imagemin');  // compress images
 
 env ({
 	file: '.env',
@@ -67,8 +70,15 @@ gulp.task('clean', () => {
   	.pipe(clean());
 });
 
+// compress images
+gulp.task('build-images', () => {
+  gulp.src(path.src.img)
+    .pipe(imagemin())
+    .pipe(gulp.dest(path.build.img));
+});
+
 gulp.task('default', ['build', 'browser-sync']);	//build for dev
-gulp.task('build', ['build-html', 'build-styles', 'build-scripts']);
+gulp.task('build', ['build-html', 'build-styles', 'build-scripts', 'build-images']);
 gulp.task('prod', ['build']);	//build for prod
 
 gulp.task('browser-sync', () => {
@@ -80,8 +90,10 @@ gulp.task('browser-sync', () => {
 	gulp.watch(path.src.html.watchFiles, ['watch-html']);
 	gulp.watch(path.src.style, ['watch-styles']);
 	gulp.watch(path.src.script, ['watch-scripts']);
+  gulp.watch(path.src.img, ['watch-images',]);
 });
 
 gulp.task('watch-html', ['build-html'], () => browserSync.reload());
 gulp.task('watch-styles', ['build-styles'], () => browserSync.reload());
 gulp.task('watch-scripts', ['build-scripts'], () => browserSync.reload());
+gulp.task('watch-images', ['build-images',], () => browserSync.reload());
