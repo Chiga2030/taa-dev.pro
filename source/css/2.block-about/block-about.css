@@ -121,19 +121,19 @@
 }
 
 .networks__item_github {
-	background: url(./img/social-networks/github.png) no-repeat;
+	background: url(./img/networks/github.png) no-repeat;
 }
 
 .networks__item_telegram {
-	background: url(./img/social-networks/telegram.png) no-repeat;
+	background: url(./img/networks/telegram.png) no-repeat;
 }
 
 .networks__item_linkedin {
-	background: url(./img/social-networks/linkedin.png) no-repeat;
+	background: url(./img/networks/linkedin.png) no-repeat;
 }
 
 .networks__item_twitter {
-	background: url(./img/social-networks/twitter.png) no-repeat;
+	background: url(./img/networks/twitter.png) no-repeat;
 }
 
 .networks__item {
