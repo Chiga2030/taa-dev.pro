@@ -1,7 +1,7 @@
 /* block - last projects - 1440px */
 
 .last-projects__title-last-projects {
-	margin-bottom: .4em; 
+	margin-bottom: .4em;
 }
 
 .title-last-projects {
@@ -69,7 +69,7 @@
 }
 
 .project__preview_third-project {
-	background: url(./img/projects-cases/axion/preview/preview.png) no-repeat center;
+	background: url(./img/projects-cases/double-you/preview/preview.png) no-repeat center;
 	background-size: cover;
 }
 
@@ -108,14 +108,14 @@
 	/* block - last projects - 1024px */
 
 	.last-projects__title-last-projects {
-		margin: .75em auto .25em; 
+		margin: .75em auto .25em;
 	}
 
 	.title-last-projects {
 		padding-top: 0;
 	}
 
-	.projects {		
+	.projects {
 		max-width: 726px;
 	}
 
@@ -162,7 +162,7 @@
 	}
 
 	.last-projects__title-last-projects {
-		margin: 1.4em auto .15em; 
+		margin: 1.4em auto .15em;
 	}
 
 	.projects {
@@ -210,7 +210,7 @@
 
 	.last-projects__title-last-projects{
 		margin-bottom: 1.9em;
-			
+
 	}
 
 	.title-last-projects {
