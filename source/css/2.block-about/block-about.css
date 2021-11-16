@@ -557,22 +557,22 @@
 	}
 
 	.networks__item_github {
-		background: url(./img/social-networks/github-dark.png) no-repeat;
+		background: url(./img/networks/github-dark.png) no-repeat;
 		background-size: cover;
 	}
 
 	.networks__item_telegram {
-		background: url(./img/social-networks/telegram-dark.png) no-repeat;
+		background: url(./img/networks/telegram-dark.png) no-repeat;
 		background-size: cover;
 	}
 
 	.networks__item_linkedin {
-		background: url(./img/social-networks/linkedin-dark.png) no-repeat;
+		background: url(./img/networks/linkedin-dark.png) no-repeat;
 		background-size: cover;
 	}
 
 	.networks__item_twitter {
-		background: url(./img/social-networks/twitter-dark.png) no-repeat;
+		background: url(./img/networks/twitter-dark.png) no-repeat;
 		background-size: cover;
 	}
 
