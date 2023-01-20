@@ -1,4 +1,4 @@
 # taa-dev.pro
-Website business card portfolio of web developer
+Website business card portfolio for web developer
 
 https://taa-dev.ru
